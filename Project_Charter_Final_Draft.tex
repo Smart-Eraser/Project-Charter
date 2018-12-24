@@ -1,0 +1,1165 @@
+%Written by: Aaron Stillmaker
+%October 23, 2018
+%ECE 186A - Senior Design
+%
+%This is a template you can use for your Project Charter, though you will need to change a good portion of it for your own needs.
+\RequirePackage{filecontents}
+\begin{filecontents*}{reference.bib}
+	@misc{de1,
+	author			={Altera},
+	title			={{DE1\_SoC Reference Manual}},
+	note			=	{http://www.ee.ic.ac.uk/pcheung/teaching/ee2digital/DE1SoCUsermanual.pdf,
+	}
+}
+	@misc{SM,
+	author			={Oyostepper},
+	title			={{23Hs22-2804S data sheet}},
+	note			=	{https://www.oyostepper.com/images/upload/File/23HS22-2804S.pdf,
+	}
+}
+	@misc{SMD,
+	author			={Leadshine Technology CO, Ltd},
+	title			={{DM542 User Manual}},
+	note			=	{http://robokits.download/datasheets/Leadshine%20DM542.pdf,
+	}
+}
+	@misc{wifiStandards,
+	author			={IEEE Standards Association},
+	title			={{IEEE 802.15.3e-2017 - IEEE Standard for 
+					High Data Rate Wireless Multi-Media Networks--Amendment 1: High-Rate Close Proximity Point-to-Point Communications}},
+	note			=	{https://standards.ieee.org/standard/802\_15\_3e-2017.html
+	}
+}
+	@misc{armStandards,
+	author			={ARM Limited},
+	title			={{Procedure Call Standard for the 
+					ARM Architecture}},
+	note			=	{http://infocenter.arm.com/help/topic/com.arm.doc.ihi0042f/IHI0042F\_aapcs.pdf
+	}
+}
+	@misc{ieee,
+	author			={IEEE},
+	title			={{IEEE Editorial Style Manual }},
+	note			=	{https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/style\_references\_manual.pdf
+	}
+}
+	@misc{nema1,
+	author			={National Electrical Manufacturers Association},
+	title			={{NEMA Standards Publication ICS 16
+					Motion/Position Control Motors,
+					Controls, and Feedback Devices}},
+	note			=	{https://www.nema.org/Standards/SecureDocuments/ICS16.pdf
+	}
+}
+	@misc{nema2,
+	author			={National Electrical Manufacturers Association},
+	title			={{Occupancy Motion Sensors Standard}},
+	note			=	{https://www.nema.org/Standards/Pages/Occupancy-Motion-Sensors-Standard.aspx\#download
+	}
+}
+	@misc{cam,
+	author			={sv3c},
+	title			={{WiFi Camera Outdoor, SV3C 
+				Surveillance CCTV, 1080P HD Night 
+				Vision Bullet Cameras, Waterproof 
+				Security Camera, IR LED Motion Detection 
+				IP Cameras for Indoor Outdoor, Support Max 
+				128GB SD Card }},
+	note			=	{https://www.amazon.com/dp/B07789DM4R/?coliid=I1G2VVNW6NF88L\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it
+	}
+}
+	@misc{raspB,
+	author			={Raspberry Foundation},
+	title			={{Products Page }},
+	note			=	{https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+	}
+}
+	@misc{smR,
+	author			={STEPPERONLINE},
+	title			={{Nema 23 CNC Stepper Motor 
+					2.8A 178.5oz.in/1.26Nm CNC Stepping Motor DIY CNC Mill}},
+	note			=	{https://www.amazon.com/dp/B00PNEPF5I/?coliid=I3APKEM9Y17HEP\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it
+	}
+}
+	@misc{smdataR,
+	author			={STEPPERONLINE},
+	title			={{Stepper Motor}},
+	note			=	{https://www.omc-stepperonline.com/download/23HS22-2804S.pdf
+	}
+}
+	@misc{smdataD,
+	author			={STEPPERONLINE},
+	title			={{STEPPERONLINE CNC Stepper Motor Driver 1.0-4.2A 20-50VDC 1/128 Micro-step 
+					Resolutions for Nema 17 and 23 Stepper Motor }},
+	note			=	{https://www.amazon.com/dp/B06Y5VPSFN/?coliid=I1R941FDJ72L0R\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it
+	}
+}
+	@misc{smdataDD,
+	author			={STEPPERONLINE},
+	title			={{User's Manual for DM542T}},
+	note			=	{https://www.omc-stepperonline.com/download/DM542T.pdf
+	}
+}
+	@misc{kuman,
+	author			={Kuman},
+	title			={{kuman 3 pcs nRF24L01+PA+LNA Antenna Wireless Transceiver RF Transceiver Module for Arduino KY67 }},
+	note			=	{https://www.amazon.com/dp/B06VSYJ7HN/?coliid=I2N6U5HO8N5E5L\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it
+	}
+}
+	@misc{wifi,
+	author			={Terasic},
+	title			={{USB WiFi Dongle}},
+	note			=	{https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English\&CategoryNo=78\&No=1027
+	}
+}
+	@misc{ebl,
+	author			={EBL},
+	title			={{EBL Li-ion 9V Battery Charger 5 Bay 9V 6F22 Lithium-ion Rechargeable Batteries}},
+	note			=	{https://www.amazon.com/dp/B07GB3TSKH/?coliid=I3FJDEJ8MXP6RY\&colid=22YAOKWOJAKA9\&ref\_=lv\_ov\_lig\_dp\_it\&th=1
+	}
+}
+	@misc{accuride,
+	author			={Accuride},
+	title			={{Instructions Manual}},
+	note			=	{https://www.accuride.com/amfile/file/download/file\_id/155/product\_id/2909/
+	}
+}
+	@misc{hobby,
+	author			={HobbyUnlimited},
+	title			={{4pcs Nema 23 Stepper Motor Steel Mounting Bracket with Mounting Screws }},
+	note			=	{https://www.amazon.com/dp/B073V77VLD/?coliid=I3S0XHJ6LUPARP\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it
+	}
+}
+	@misc{uxcell,
+	author			={Uxcell},
+	title			={{uxcell Aluminum GT2 40 Teeth 6.35mm Bore Timing Belt Pulley Flange Synchronous Wheel for 3D Printer}},
+	note			=	{https://www.amazon.com/dp/B0728PDWY5/?coliid=I3K7SWFRMQ3A2F\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it
+	}
+}
+	@misc{merc,
+	author			={Mercury},
+	title			={{Mercurry 5 Meters GT2 timing belt width 6mm Fit for RepRap Mendel Rostock Prusa GT2-6mm Belt }},
+	note			=	{https://www.amazon.com/dp/B071K8HYB4/?coliid=I3KCLVNOTYFU5Y\&colid=22YAOKWOJAKA9\&psc=0\&ref\_=lv\_ov\_lig\_dp\_it
+	}
+}
+	@misc{hd1,
+	author			={Home Depot},
+	title			={{Sheathing Plywood (Common: 15/32 in. x 4 ft. x 8 ft.; Actual: 0.438 in. x 48 in. x 96 in.)}},
+	note			=	{https://www.homedepot.com/p/Sheathing-Plywood-Common-15-32-in-x-4-ft-x-8-ft-Actual-0-438-in-x-48-in-x-96-in-20159/206827282
+	}
+}
+	@misc{hd2,
+	author			={Home Depot},
+	title			={{4 in. x 4 in. x 6 ft. Pressure-Treated Cedar-Tone Moulded Fence Post}},
+	note			=	{https://www.homedepot.com/p/Outdoor-Essentials-4-in-x-4-in-x-6-ft-Pressure-Treated-Cedar-Tone-Moulded-Fence-Post-162525/204126782
+	}
+}
+	@misc{hd3,
+	author			={Home Depot},
+	title			={{5 in. Swivel with Brake Non-Marking Rubber Caster}},
+	note			=	{https://www.homedepot.com/p/Everbilt-5-in-Swivel-with-Brake-Non-Marking-Rubber-Caster-4031545EB/203672648
+	}
+}
+	@misc{hd4,
+	author			={Home Depot},
+	title			={{
+			Linden 5 in. x 5 in. x 9 ft. White Vinyl Routed Fence End Post}},
+	note			=	{https://www.homedepot.com/p/Veranda-Linden-5-in-x-5-in-x-9-ft-White-Vinyl-Routed-Fence-End-Post-73013274/203109195
+	}
+}
+	@misc{hd5,
+	author			={Home Depot},
+	title			={{Sheathing Plywood (Common: 15/32 in. x 4 ft. x 8 ft.; Actual: 0.438 in. x 48 in. x 96 in.)}},
+	note			=	{https://www.homedepot.com/p/Sheathing-Plywood-Common-15-32-in-x-4-ft-x-8-ft-Actual-0-438-in-x-48-in-x-96-in-20159/206827282
+	}
+}
+	@misc{improc1,
+	author			={Dwayne Phillips},
+	title			={{mage Processing in C Second Edition}},
+	note			=	{http://homepages.inf.ed.ac.uk/rbf/BOOKS/PHILLIPS/cips2ed.pdf
+	}
+}
+	@misc{camellia,
+	author			={Camellia},
+	title			={{Image Processing and Computer Vision Library}},
+	note			=	{http://camellia.sourceforge.net
+	}
+}
+	@misc{maker,
+	author			={Maker.IO},
+	title			={{Raspberry Pi 3 B and B+ - How to Configure Wi-Fi and Bluetooth}},
+	note			=	{https://www.digikey.com/en/maker/blogs/raspberry-pi-3---how-to-connect-wi-fi-and-bluetooth
+	}
+}
+\end{filecontents*}
+
+\documentclass[12pt,onecolumn]{IEEEtran}			%Everything is default, except  which is journal, 10pt font, and final draft
+\usepackage{dtk-logos}						%This let me do the cool BibTeX logo, you shouldn't need this line. Add additional packages here:
+\usepackage{graphics}
+\usepackage{float}
+\usepackage{caption} 
+\usepackage[export]{adjustbox}
+
+%add packages here:
+
+\title{ \hfill  \vspace{2in} \\Smart Eraser \vspace{0.05in} }	
+
+%the \vspace is moving the title down from the top of the page
+\author{Project Charter \\ \vspace{0.6in}
+\vspace{12pt} 
+
+Heather Libecki - Chris Quesada - Juan Colin \\
+\vspace{5pt}
+Technical Advisor: Dr. Hovannes Kulhandjian	\\				%Note the \\ line returns to make sure to put each one on a new line
+\vspace{12pt} 								%I put in some space to get the due date listed a little lower
+Friday, December 14, 2018 \\ 
+\vspace{3.2in}
+ECE 186A - Senior Design I \\ 					%I am jamming all of the stuff I want on the title page into the Author spot, I know, this isn't elegant
+Fall 2018 - Dr. Aaron Stillmaker \\
+\vspace{5pt}
+California State University, Fresno \\
+Electrical and Computer Engineering Department \\ 
+
+\vspace{2in}								%You may need to mess with this space, this space is above the signature lines.
+
+
+\vspace{4in}}								%You will need to mess with this space, this space is after the signature lines.  The idea
+										%is to make the title page by itself.  I know, this isn't elegant either, but IEEE formatting doesn't
+										%make title pages
+
+\begin{document}
+
+
+\maketitle									%This generates the title from the information given above.
+\thispagestyle{empty}						%This removes the page number from the title page.
+\newpage
+\thispagestyle{empty}
+
+ \section*{Revision History}
+\begin{table} [H]	
+	\normalsize
+	\centering
+	\begin{tabular}{|l|l|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Version \#}} & 
+		\multicolumn{1}{|c|}{\textbf{Date Finalized}} &
+		\multicolumn{1}{|c|}{\textbf{Name of Editor}} & 
+		\multicolumn{1}{|c|}{\textbf{Changes Made}} \\
+		\hline
+		1 & 10/25/18 & Heather Libecki & The initial rough draft of the Project \\ 
+		  &			 & Chris Quesada   & Charter was created, included proper \\ 
+		  &			 & Juan Colin      & sections and figures specified by Dr. Stillmaker\\
+		\hline
+	    2 & 12/9/18 & Heather Libecki  & The initial rough draft of the Project \\ 
+	      &			 & Chris Quesada   & Charter was created, included proper \\ 
+	      &			 &                 & sections and figures specified by Dr. Stillmaker\\
+	      &			 &				   &	\\
+	      &			 &				   & Revisions were made regarding system components:\\ 
+	      &			 &				   & Ethernet and most of the planned wired \\
+	      &			 &				   & connections were removed and replaced with wireless\\ 
+	      &			 &				   & solutions. \\
+	      &			 &				   &	\\
+	      &			 &				   & References were included in necessary figures and \\
+	      &			 &				   &  statements. \\
+	      &			 &				   &	\\
+	      &			 &				   & Strengths and Weaknesses section was moved to a \\
+	      &			 &				   & more appropriate location.\\
+	      &			 &				   & Figures and tables were added and updated;\\
+	      &			 &				   & Figure 2: not skipped anymore\\
+	      &          &                 & Figure 3: updated\\
+	      &			 &				   & Figure 4: referenced correctly\\
+	      &          &                 & Figure 5: removed\\
+	      &			 &				   & Figure 7: removed\\
+	      &			 &				   & Figure 8: removed\\
+	      &			 &				   &	\\
+	      &			 & 				   & New figures were added\\
+	      &			 &				   &	\\
+	      &			 &				   & Updated GANTT chart to more clearly show dependencies\\
+	      &			 &				   &	\\
+	      &			 &				   & More research and background references were used.\\
+	      &			 &				   &	\\
+	      &			 &				   & Test plan was added.\\
+	      
+		\hline
+	\end{tabular} 
+\end{table}
+ \newpage
+ \thispagestyle{empty}
+ \section*{Abstract}
+
+The Smart Eraser idea originated with the express purpose of making the lives of teachers easier by allowing them to utilize valuable class time in a productive way. It aims to assist teachers who write lengthy, involved examples on a whiteboard while lecturing on the material they want their students to understand. The Smart Eraser will erase the information written on the whiteboard at the teacher's will, allowing them to continue lecturing without wasting precious class time on erasing the board between examples. This will allow students to learn in an environment with less interruptions and distractions from the material being taught, resulting in improved overall focus and retention.\par
+ \setlength{\parindent}{2.5ex} The project itself is an automatic whiteboard eraser with smart processing capabilities. The process the eraser will perform begins at the camera, which will be at a fixed location facing the board to allow the entire whiteboard's image to be recorded. The image captured on the camera will be sent via a wireless connection to a microcontroller, where it will go through an image-processing algorithm that will translate the locations of the markings on the whiteboard into an array of flags. This array will be sent through an algorithm to determine the quickest path to travel to erase all markings on the board. The new array with the quickest path configuration will be translated into ``coordinates'', which will essentially be translating the flags corresponding to the locations of the markings into rotation instructions to be sent to the stepper motors. From the microcontroller, these rotation instructions will be sent via a wireless connection to the stepper motors attached to the linear tracking system, which will allow the eraser to cover the x-y plane of the whiteboard's surface. Finally, after all procedures are done, the eraser will return to its stand-by position.
+
+ \newpage
+ \thispagestyle{empty}
+ \tableofcontents
+ \listoffigures
+ \thispagestyle{empty}
+ \listoftables
+ 
+ \newpage
+\setcounter{page}{1}
+ \section{Introduction}
+ The purpose of the Smart Eraser is to allow class time to be utilized for learning. It will assist teachers who write lengthy, involved examples on a whiteboard while lecturing, by erasing the board in between examples while the teacher continues to lecture. This will allow students to learn in an environment with less interruptions and distractions from the material being taught, which will result in improved overall focus and retention of the information.  
+ \par
+\setlength{\parindent}{2.5ex}The Smart Eraser is an automatic whiteboard eraser. The main deliverable of  this project will be an eraser which can move left-to-right on a track, and up-and-down on another motion system attached to the track. This system will be able to detect where markings are on a whiteboard through the use of a camera and an image-processing program. The camera will be mounted across from the whiteboard, and will send the image of the whiteboard to a microcontroller which will process the image, detect where the markings are, and find the quickest path to erase all of these markings via an algorithm. Once the quickest path is found, their locations will be converted to a coordinate system that the mechanical aspects of the eraser will be able to read. This coordinate system will essentially convert the locations of the markings into rotations of the stepper motors attached to the tracks, allowing the eraser to move. Finally, the eraser will be sent to its stand-by position once all of the markings have been erased. The eraser will also be able to detect an obstruction in front of the whiteboard, specifically the presence of a person, through the use of a body heat sensor. This will check if there is a person moving in front of the whiteboard, and if there is, the result would be an immediate termination of the process the Smart Eraser was carrying out in order to ensure the safety of those around the Smart Eraser while it is operating.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.93]{"designOverview".png}}
+	\caption{Design overview of the final product}
+	\label{fig:rough}
+\end{figure}
+
+Figure~\ref{fig:rough} shows an overview of the final deliverable's electrical components and indicates what each component of the system is with numbered arrows. These numbered arrows correspond to the numbered explanations of each component below.
+
+\begin{enumerate}
+	\item The linear motion system with the attached eraser. This will allows the eraser to move in the y-axis direction.
+	\item The tracking system attached above and below the whiteboard. This will allow the eraser to move in the x-axis direction.
+	\item The text that will be erased. 
+	\item The USB dongle wifi receiver to receive the transmission of the image from the camera.
+	\item The DE1\_SoC microcontroller, which will contain the image-processing program, the quickest path algorithm, the information on how to move the stepper motors, and the motion-detection program.
+	\item Raspberry Pi that will send data via a wireless transmission to the stepper motors.
+	\item Wireless transmitter from the camera to the receiver of the DE1\_SoC.
+	\item The camera which will capture the image of the markings on the board, and their locations will be determined through the use of image-processing software within the DE1\_SoC microcontroller.
+	\item The stepper motors (as well as the PCB that will be made for their driver and additional power connections). 
+	\item Kuman transceiver attached to the x-axis stepper motor and PCB that will receive instructions from the Raspberry Pi for stepper motor rotations and will forward them to the motor itself.
+	\item Kuman transceiver attached to y-axis stepper motor and PCB. \\
+\end{enumerate} \par
+
+\setlength{\parindent}{2.5ex} Heather Libecki is responsible for being the project manager of the Smart Eraser project. She will be researching the DE1\_SoC microcontroller, its relevant components, the ARM assembly language it uses, and the GPIO pin connectors it uses to connect to peripheral devices. She will also be researching the stepper motors, the drivers needed to operate them, and she will be creating the PCB to connect these components together, as well as the additional power needed for them, and the wireless transceiver that will receive relevant instructions. She will then be in charge of the camera and its connection to the DE1\_SoC, which will be through a WiFi dongle. Therefore, she will be in charge of all wireless connectivity for the project. \par
+\setlength{\parindent}{2.5ex} Chris Quesada will be charge of developing the image processing program, how to implement it using the C programming language, and how this program will be able to run on the DE1\_SoC. After successfully completing the image processing program, he will then research the algorithm for finding the quickest route to the markings on the board. This route will be passed to Heather's system that transmits the data to the stepper motors.  Finally, he will be in charge of developing a motion detection program to detect movement in front of the board. Therefore, he will be in charge of all image processing, shortest path algorithm development, and motion detection.
+ \par
+\setlength{\parindent}{2.5ex} Juan Colin will be researching the SDRAM interface standards in order to save images from the camera to the DE1\_SoC. He will also be researching the physical mechanical system, its required connections, and the power system that will need to be created in order to allow it to run properly. He will then be in charge of mounting all of the components together in a way similar to the prototype shown in Figure 1, and then the whole system will be connected to a wood backing in order to allow the prototype to be mobile, which is shown in Figure 19. Therefore, he will be in charge of the entire physical mechanical system of the Smart Eraser.
+ \par
+\setlength{\parindent}{2.5ex}During the project life cycle, there will also be multiple deliverables that will need to be completed and turned in to Dr. Stillmaker. These deliverables will be worked on by all three members of the team to ensure a consistent flow of information throughout all written documentation.
+ 
+ \section{Project Objectives and Success Criteria}
+ The description of the Smart Eraser in the Project Description section of this document specifies what the ideal final product will be, so within this section, the actual objectives of the Smart Eraser will be listed. \\ \par
+ \setlength{\parindent}{2.5ex}  Main Objectives
+ \begin{itemize}
+ \item Create a functioning mechanical system that allows the eraser to move in the x and y plane in order to erase the entire whiteboard.
+ \item Create a functioning Smart Eraser that erases detected markings in a timely manner.
+ \item Create an image processing program to detect said markings on the whiteboard.
+ \item Create a coordinate system based on processed image to move eraser to specific markings.
+ \item Create an algorithm to sort the order in which the markings should be erased to ensure the shortest path is taken.
+ \item Create a motion-detection program to check for people obstructing the whiteboard. \\
+ \end{itemize} \par
+
+\setlength{\parindent}{2.5ex} In this next section, the specific criteria that need to be met in order to consider this project a success will be listed. These criteria will help those contributing to the completion of this project to be able to measure the actual success of the final product. There will be simple success criteria listed, as well as more ambitious success criteria that will describe an ideal version of this project, including additional features that could be added if there is a significant amount of extra time after accomplishing the simple success criteria. \\
+
+\subsection{Simple success criteria}
+\begin{itemize}
+\item The tracking system moves the eraser to all parts of the board. 
+\item Eraser erases the entire whiteboard with no smart processing (covers entire board).
+\item Location of non-white pixels, found in the stored image in the SDRAM through image processing, get stored to a 2D array as boolean TRUE values.
+\item Shortest path determined through Dijkstra's analysis of the 2D array with boolean values.
+\begin{itemize}
+	\item Array with locations of markings (a.k.a. ``coordinates'') are converted to stepper motor rotations that will move the eraser to the proper destination.
+\end{itemize}
+\item Camera connects wirelessly to DE1\_SoC board, image from camera saves to microcontroller SDRAM memory.
+\item Image processing program on DE1\_SoC works with image stored on SDRAM to find markings in image.
+\item Motion-detection program creates TRUE signal to be sent to microcontroller if large obstruction (a person) is in front of whiteboard, returns to FALSE when obstruction gone.
+\item Location of markings found with camera via image processing convert to necessary coordinates for mechanical system to read.
+\item TRUE signal from motion-detection program halts the movement of the eraser, resumes the eraser's process when FALSE signal received.
+\item Push-buttons on DE1\_SoC perform specifications, stated in Microcontroller Involvement subsection of the Assumptions, Constraints, and Standards section of this charter, using interrupts. \\
+\end{itemize}
+
+\subsection{Ambitious success criteria}
+\begin{itemize}
+\item Visual feedback on DE1\_SoC board's LEDs, HEX display, or LCD screen on current process being performed by eraser.
+\item Phone or tablet application shows a live feed of the whiteboard from the camera.
+\begin{itemize}
+\item Application can send specific coordinates to the whiteboard in order to ``pick and choose'' what section of the board to erase.
+\end{itemize}
+\item Attachable spray system applies whiteboard liquid cleaning solution to perform ``full clean'' of whiteboard.
+\begin{itemize}
+\item Timer on DE1\_SoC tells eraser to perform a ``full clean'' during the night, when no one is in the classroom.
+\end{itemize}
+\item Eraser can be raised off of the whiteboard surface and subsequently re-pressed on to the board as needed.
+\item Smart Eraser patent.
+\item Store images each time board gets erased to provide the classes notes for the day.
+\item Add remote control capabilities.
+\end{itemize}
+ 
+ 
+ \section{High-Level Requirements}
+The high-level requirements associated with the completion of this project are outlined in the following list. \par
+\setlength{\parindent}{2.5ex} The project should:
+\begin{itemize}
+\item Be completed within the outlined budget.
+\item Be implementable within 2 semesters.
+\item Be complex enough to warrant the title ``senior design project''.
+\item Produce a complete Project Charter outlining the various project information, figures, and tables of the Smart Eraser.
+\item Have significant, roughly equal portions of the project be completed by each team member.
+\item Utilize material learned in core and technical elective classes throughout college careers.
+\item Produce a deliverable that can be presented in the Senior Project Presentation Day event held in the Satellite Student Union building.
+\end{itemize}
+ 
+\section{Assumptions, Constraints, and Standards}
+Based on the research conducted on what information, components, and protocols will be useful to know for the completion of this project, specific courses that are relevant to this project, as well as other relevant information needed, are listed.\par
+The following list outlines the relevant courses and the material that will be used from them.\par
+
+\begin{itemize}
+	\item ECE 178 - Embedded Systems
+	\begin{itemize}
+		\item Development of algorithms.
+		\item Setting up and using interrupts with the microcontroller.
+		\item Interfacing with peripherals on the microcontroller.
+		\item System design with Quartus.
+	\end{itemize}
+	\item ECE 146 - Computer Networks
+	\begin{itemize}
+		\item Wireless connection between systems and how data is transferred over link.
+		\item Dijkstra's Algorithm, which will be used to find the shortest path between locations of markings.
+	\end{itemize}
+	\item ECE 90 - Principles of Electrical Circuits
+	\begin{itemize}
+		\item Developing the power scheme and parameters for the stepper motors and track system.
+		\end{itemize}
+	\item ECE 118 - Microprocessor Architecture and Programming
+	\begin{itemize}
+		\item Recursion programming and algorithms developed for shortest path.
+		\item Determining how to store memory in DE1\_SoC.
+		\item Working with ARM processor and GPIO connectors on DE1\_SoC.
+		\item Using stepper motors, their drivers, and an additional power supply to operate the motors with the DE1\_SoC.
+		\item Programming push-buttons on DE1\_SoC.
+	\end{itemize}
+	\item ECE 85 - Digital Logic Design
+	\begin{itemize}
+		\item Developing PCB for stepper motor connections.
+		\item Any state diagrams needed for logic between processes.
+	\end{itemize}
+	\item ECE 106 - Switching Theory and Logical Design
+	\begin{itemize}
+		\item Developing flow charts and block diagrams of the overall system. \\
+	\end{itemize}
+\end{itemize}\par
+
+A few possible constraints on the project are the additional power supplies needed to make the stepper motors and their drivers operate, and how the power will be supplied to the system.\par 
+Based on the courses provided in the previous list, the following information was extracted from the knowledge gained while taking these classes over the last couple of years. Because most of the following information is from knowledge learned during these courses, there will be no concrete sources provided for where it was learned about. More detailed research and information found for these different components and processes, including research sources, is located in the Project Description section of this charter.
+
+\subsection{Data Storage}
+The images taken from the camera will need to be saved to the DE1\_SoC board in order to allow the image processing program to work on them. The SDRAM on the DE1\_SoC board will be utilized, using the libraries included with C, in order to store and access information. The coordinate system that needs to be created will also be saved to the SDRAM, as well as the boolean 2d array that represents where there are markings in the digital image.
+\subsection{Translate Detected Markings into Coordinate System (Stepper Motor Rotations)}
+Through team collaboration, it was decided that each stepper motor rotation would represent one pixel length. This is how a coordinate system can be developed. For example, if the image processing algorithm picks up a mark that is 56 pixels from the left of the image, and 178 pixels from the top of the image, this would result in 56 partial rotations (to a specific degree that has yet to be determined) to the right on the x-axis motor and 178 partial rotations (to a specific degree that has yet to be determined) down on the y-axis motor. As mentioned, further configuration at the time of testing needs to be done towards how many degrees of rotation the stepper motor would need to rotate in order to represent 1 pixel length.
+
+\subsection{Stepper Motor System Design}
+The stepper motors themselves will have 6.35mm teeth bore flanges. These ``teeth'' will be used to grip the pulleys that drive the movement of the linear motion system. In order to rotate the stepper motors, specific stepper motor drivers (DM542T) will be used in order to drive them. This stepper motor ``system'' will be designed on a PCB in order to minimize odd connections and spaghetti wires in the final product. Also attached to these stepper motor system's PCBs will be a Kuman wireless transceiver used for receiving instructions transmitted from the Raspberry Pi.
+\subsection{Microcontroller Involvement}
+This microcontroller will have four push-buttons that will be programmed to do one of four activities: erase the board using smart processing, erase the entire board from top to bottom without smart processing, stop the eraser's movement in case of emergency, and reset the eraser's current process in order to send it back to its stand-by position. The microcontroller will be the central  hub where all components of the system interact. A Raspberry Pi will be attached to the DE1\_SoC via the GPIO ports in order to send the coordinates for the stepper motors through a wireless connection. The Raspberry Pi will only be used in order to alleviate the use of any wires that may have been needed in order to send instructions to the stepper motors.
+\subsection{Shortest Path Algorithm}
+In order to find the shortest path between all marks detected by the image processing program, Dijkstra's algorithm will be applied to the array containing the translated image. This translated image will be contained in an array that represents the detected marks from the board. The algorithm will then start at the top left most mark and traverse the array to find the shortest path between all marks in the array.\par
+
+\subsection{Image Processing}
+One of the main components of the Smart Eraser will be its image processing capabilities. The DE1\_SoC will be fed an image through a wireless connection and store that image in memory. The image that will be stored into memory will be the most difficult to work with because of the color within it. ``Color images are similar to gray scale except that there are three bands, or channels, corresponding to the colors red, green, and blue.  Thus, each pixel has three values associated with it'' \cite{improc1}. These pixels need to be evaluated in order to find which ones are associated with markings on the board. In order to do this, there are multiple different libraries available for C that can provide that capability, such as Camellia \cite{camellia}. Once the pixels have been identified, then another 2D array can be used in order to set true/false values, representing ``marking'' pixels and ``non-marking'' pixels. This will allow the shortest-path algorithm to find the shortest distance from one node to every other node.  
+
+\subsection{Wireless Connectivity}
+The image sent from the camera to the DE1\_SoC, as well as the instructions for the stepper motors from the DE1\_SoC, will be sent via WiFi connections. The IEEE 802.15.3e-2017 Standard will be used for all wireless connections as stated in the Standards section, meaning the packets will be structured and handled as defined by this standard of communication. The ``data rates are high enough to satisfy a set of consumer multimedia industry needs, as well as to support emerging wireless switched point-to-point and high rate close proximity point to point applications'' \cite{wifiStandards}. There are also multiple guidelines for setting up and connecting the Raspberry Pi through WiFi, like the one provided from Maker.IO \cite{maker}.
+
+\subsection{PCB}
+A PCB was decided upon in order to avoid spaghetti wire connections. There will be two PCBs, one for each stepper motor system, that will connect the Kuman wireless transceiver \cite{kuman}, stepper motor \cite{smR}, and the stepper motor driver \cite{smdataD}. 
+
+\subsection{Motion Detection}
+The final aspect of the Smart Eraser will be the ability to detect motion in front of the board. The field of view of this sensor will adhere to the NEMA Standards Publication for Occupancy Motion Sensors \cite{nema2}. The goal is to stop the system when the sensor detects movement so as not to cause any injuries to bystanders while it's in motion.
+
+
+Further research will be done as needed for these components and processes in order to fully utilize their capabilities in this project.  \\
+
+Based on the components and parts that will be used in this project, the following standards were found to apply, and will be followed during the creation and implementation of the Smart Eraser.
+
+\subsection{Standards}
+\setlength{\parindent}{2.5ex} The standards listed below will be followed while completing this project.
+\begin{itemize}
+	\item IEEE 802.15.3e-2017 - IEEE Standard for High Data Rate Wireless Multi-Media Networks--Amendment 1: High-Rate Close Proximity Point-to-Point Communications
+	\begin{itemize}
+		\item Applies to the wireless communication and data transfer between components in the system \cite{wifiStandards}
+	\end{itemize}
+	\item ARM IHI 0042F Procedure Call Standard for the ARM Architecture
+	\begin{itemize}
+		\item Applies to the assembly language we will be using to code our project
+		\cite{armStandards}
+	\end{itemize}
+	\item IEEE Editorial Style Manual
+	\begin{itemize}
+		\item Standards to follow when writing this Project Charter and any other reports that will be written for this project \cite{ieee}
+	\end{itemize}
+	\item NEMA Standards Publication ICS 16 Motion/Position Control Motors, Controls, and Feedback Devices
+	\begin{itemize}
+		\item Applies to the stepper motors we will be using and their operation \cite{nema1}
+	\end{itemize}
+	\item NEMA Standards Publication for Occupancy Motion Sensors
+	\begin{itemize}
+		\item Applies to motion detection sensors \cite{nema2}
+	\end{itemize}
+\end{itemize}
+ 
+\section{Project Description and Boundaries}
+This section contains a list of the major and minor components that will be used in this project, a more detailed description of each of these components and how they will play a role in the Smart Eraser project, and some boundaries that will need to be overcome in order to ensure the success of this project. \par
+\setlength{\parindent}{2.5ex}The following lists contain the major and minor components to be used in this project. More details about each major component's specifications and model numbers can be found in the Budget section of this charter.\\
+
+
+Major Components
+\begin{itemize}
+	\item DE1\_SoC Development Board
+	\item Camera
+	\item Stepper Motors
+	\item Stepper Motor Driver
+	\item PCBs
+	\item Rechargeable 9V Batteries
+	\item Wireless Transceivers
+	\item WiFi Dongle
+	\item Linear Motion System (x \& y direction)
+	\item Timing Belt
+	\item Timing Belt Pulley Flange
+	\item Eraser
+	\item Whiteboard \\
+\end{itemize}
+
+Minor Components
+\begin{itemize}
+	\item Various Wire Connections
+	\item Stepper Motor Mounting Brackets
+	\item Screws
+	\item Wooden Board (for mobile prototype)
+	\item Wooden Frame (for mobile prototype)
+	\item Wheels (for mobile prototype) \\
+\end{itemize} \par 
+
+\section{Physical Technological Components}
+
+\subsection{Fully Connected System}
+
+The Smart Eraser system's interconnected technology is shown in the following block diagram. 
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=1]{"systemDiagram".png}}
+	\caption{Block diagram of main system components}
+	\label{fig:bd1}
+\end{figure}
+
+A more detailed description of these parts, their specifications, why they were chosen, and how they are expected to interact with other nearby parts in the system will now be explained.
+
+\subsection{Camera}
+The camera will be the input that drives the functionality of the rest of the system. It needs to be high enough quality so as to be able to distinguish markings on the board from the rest of the environment, and it will be connected to the DE1\_SoC via a wireless WiFi connection. The WiFi sv3c 1080p camera was chosen with this in mind, as it will be able to send data it is viewing over a wireless connection.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.20]{"camera".png}}
+	\caption{WiFi sv3c camera that will be used for capturing the image to be processed \cite{cam} }
+	\label{fig:cam}
+\end{figure}
+
+\subsection{DE1\_SoC Development Board}
+Due to the processing capabilities that the Smart Eraser needs to be able to handle, and due to the peripheral devices that need to be attached, the DE1\_SoC was found to be the best microcontroller to use for the brains behind the mechanism. The DE1\_SoC not only allows for the straightforward programming of peripheral devices attached to it, but it also has a processor built into it which can handle the programming that needs to be done for the Smart Eraser to work as intended. Within the DE1\_SoC is the GPIO 40 pin header, which is the gateway to the Raspberry Pi that will be used to connect wirelessly to the stepper motors, and the USB port will connect to a WiFi Dongle that will communicate directly with the WiFi camera. There are also 4 push buttons that can be programmed to perform any process, and these will be used to send the signal to perform the erasing and other actions specified in the Microcontroller Involvement subsection of the Assumptions, Constraints, and Standards section in this charter.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.90]{"de1".png}}
+	\caption{A detailed block diagram of the components 
+		contained on the DE1\_SoC \cite{de1} }
+	\label{fig:de1}
+\end{figure}
+
+\subsection{Raspberry Pi 3 Model B}
+
+In order to keep the system from having too many wired connections, especially concerning the moving parts and how the connections would move, a wireless connection was found to be the best way to implement the Smart Eraser and its connections to the stepper motors in the system. Therefore, a device with wireless capabilities is needed in order to transmit the instructions for movement to the stepper motors. The Raspberry Pi 3 Model B was chosen with this in mind, due to its wireless and LAN connection capabilities. 
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"rasp".png}}
+	\caption{The Raspberry Pi 3 Model B with wireless and LAN connection capabilities \cite{raspB} }
+	\label{fig:rasp}
+\end{figure}
+
+\subsection{Stepper Motors}
+The stepper motors will allow the eraser to move along the track and linear motion systems that will be mounted to the wall above and below the whiteboard. Because of the weight of the components chosen to move along the track, a stepper motor with enough power and torque to move said components is needed. With this in mind, the NEMA 23 CNC Stepper Motor (with 1.26Nm holding torque, 1.8 degree step angle, 2.8A rated current per phase, 0.9$\Omega$ resistance, and 24-48V driving voltage) was chosen for the Smart Eraser. It will be connected via jumper wires to the stepper motor drivers that will allow their movement. These will require additional power, and this power will be supplied via three 9V rechargeable lithium batteries, which will be connected through the PCB that will created for the stepper motor connections.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.35]{"sm".png}}
+	\caption{ Image showing the Nema 23 stepper motor \cite{smR} }
+	\label{fig:sm}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.95]{"smdata".png}}
+	\caption{Table showing relevant information on the NEMA 23 stepper motor \cite{smdataR}}
+	\label{fig:smd}
+\end{figure}
+
+\subsection{Stepper Motor Drivers} 
+The stepper motor drivers will be an intermediary device between the stepper motors and the PCB. The drivers need to specifically work with the stepper motors that were chosen. Therefore, the stepper driver that will be used for the NEMA 23 stepper motor is the Full Digital Stepper Driver, model number DM542T. This model was not only chosen due to its compatibility with the NEMA 23 model stepper motors, but also because of its capabilities to drive the motors at lower noise, with lower heating, and with smoother movement. Like the stepper motors, the drivers will need additional power, and they will receive it through the PCB via three 9V rechargeable lithium batteries.
+The table in Figure 9 shows the correct parameters for the drivers that need to be kept in mind when the additional power is connected to them via the PCB, and the table in Figure 10 shows the specific ports that will need to be driven by a high voltage value in order to allow the motor to actually rotate clockwise or counterclockwise.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.50]{"smD".png}}
+	\caption{Image of the stepper motor driver and its connectors for the motor \cite{smdataR}}
+	\label{fig:smD}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.85]{"smDD".png}}
+	\caption{Table of electrical specifications for the stepper motor drivers, including driving voltages and output currents
+		\cite{smdataD}}
+	\label{fig:smDD}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.85]{"smDD2".png}}
+	\caption{ Microstep resolution settings for the stepper motor driver with specified on and off ports to rotate the motors
+		\cite{smdataDD}}
+	\label{fig:smDD2}
+\end{figure}
+
+\subsection{Wireless Connections}
+
+There will be two types of wireless connectors that will allow for a wireless communication between devices. The first is the Kuman Antenna Wireless Transceiver, which is compatible with Raspberry Pi. It will be connected to the stepper motors via the PCB, and it will be receiving the instructions for the stepper motors that are sent from the Raspberry Pi, which receives the data needed to be sent from the DE1\_SoC. The second type of wireless connector that will be used is the Xiaomi Mi Portable WiFi Dongle which will be connected to the DE1\_SoC via its USB port. This will be communicating with and receiving data from the camera in order to process the image being captured of the whiteboard's surface.
+
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.50]{"Wcon".png}}
+	\caption{ The Kuman Antenna wireless transceiver to be connected to the stepper motor's PCB
+		\cite{kuman}}
+	\label{fig:Wcon}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"usb".png}}
+	\caption{ The WiFi dongle to be attached to the DE1\_SoC, which will communicate with the wireless camera
+		\cite{wifi}}
+	\label{fig:usb}
+\end{figure}
+
+\subsection{PCB}
+
+The PCB (Printed Circuit Board) will be an intermediary device between the stepper motor drivers and the DE1\_SoC board, as well as the additional power that will be needed to power the motors and their drivers. It will also contain the connections to the Kuman Wireless Transceivers that will receive the instructions from the DE1\_SoC, via it\rq s WiFi dongle attached to its USB port. This PCB will be created using a circuit modeling software, Eagle by Autodesk, and will contain connecting pins to ensure spatial efficiency, as well as to make sure all components will be connected properly.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"PCB".png}}
+	\caption{ A rough model of what the PCB will look like, which will be created for both stepper motor systems
+		\cite{smdataR}}
+	\label{fig:PCB}
+\end{figure}
+
+\subsection {Additional Power Source}
+
+The chosen stepper motor drivers can handle a voltage input ranging from 20 - 50 V, and the stepper motors themselves can handle a voltage input from 24 - 48V. Therefore, the power source needs to be able to drive enough current to generate that range for the PCB, which the stepper motors will be connected to. With this in mind, the 9V rechargeable lithium batteries were chosen for the additional power source. Three of these batteries will be connected in series on the PCB to provide the additional power needed to drive the motors and their drivers. The batteries can be recharged when they run out of charge, which will allow them to be reusable many times for the prototype as well.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.40]{"charger".png}}
+	\caption{ The batteries in their recharging station that will be used to power the stepper motors and their drivers
+		\cite{ebl}}
+	\label{fig:charger}
+\end{figure}
+
+\subsection{Physical Mechanical Components}
+
+The Model 115RC linear motion track system will allow the eraser to move in the x-axis direction of the whiteboard. There will be two tracks mounted above and below the whiteboard, and attached to the Cassettes with Stainless Steel Bearings on each track will be a third track that will allow the eraser to move in the y-axis direction of the whiteboard. 
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=1]{"LM".png}}
+	\caption{ Specific dimensions and placement of holes in the Model 115RC Linear Motion Track System, as well as the Cassette carriage that will be used for mounting
+		\cite{accuride}}
+	\label{fig:LM}
+\end{figure}
+
+\subsection{Stepper Motor Mounts}
+The NEMA 23 stepper motor steel mounting brackets will be used to actually mount the stepper motors onto the tracking system.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.50]{"smM".png}}
+	\caption{  Mounts that will be used to place the stepper motors on the system
+		\cite{hobby}}
+	\label{fig:smM}
+\end{figure}
+
+\subsection{Pulley System}
+ The pulley system will consist of two components: a GT2 40-teeth 6.35 mm bore timing belt pulley flange synchronous wheel, and a 5 meter long, 6mm wide GT2 timing belt. Two pulley flanges will connect to either side of the track, as well as either side of the linear motion system, and the timing belt will wrap around them. One of the flanges on each of the mobile parts will connect to the stepper motors in order to allow the belt to actually move. The belt in Figure 18 is black in order to show the details of the teeth, but the actual belt that will be used will be white.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"teeth".jpg}}
+	\caption{  The GT2 40-teeth 6.35 mm bore timing belt pulley flange synchronous wheel
+		\cite{uxcell}}
+	\label{fig:teeth}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.75]{"pulley".jpg}}
+	\caption{  A close up view of the 5 meter long, 6mm wide GT2 timing belt. This belt is black to show detail, but the belt that will actually be used in the project will be white
+		\cite{merc}}
+	\label{fig:pulley}
+\end{figure}
+
+\subsection{Prototype Mounting Components}
+
+The following figure shows a rough view of what the final prototype will look like when it is mounted on the mobile station. The specifics on what is needed for this prototype and how it will be built are explained after it.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.80]{"prot".png}}
+	\caption{  The mobile prototype that the Smart Eraser will be mounted to
+		\cite{hd1}}
+	\label{fig:prot}
+\end{figure}
+
+\setlength{\parindent}{2.5ex}Screws will be needed in order to attach the horizontal tracks to the plywood of the prototype. They will also be needed in order to mount the vertical track to the moving carriages of the horizontal tracks, as well as mounting the board itself to the plywood of the prototype. Since the dimensions of the whiteboard are 48''x 36'', the plywood will need to extend at least 5'' past the top and bottom edges of the whiteboard in order to mount the horizontal tracks.  To support the plywood being used to attach all the components, four 4x4 posts will be fashioned to act as legs for the plywood backing, as well as wheels for mobility. The prototype stand will then be sanded down and primed in order to be more presentable. The plywood and 4x4s will be obtained from Home Depot.\par
+
+\setlength{\parindent}{2.5ex}The camera will need to be placed across from the whiteboard, and it will need to mimic a classroom environment. This means it will need to mimic the distance away from the whiteboard, as well as the height above the whiteboard that is roughly equivalent to where it will be placed when it is mounted to the projectors already in classrooms, across from the whiteboards. Therefore, a 9ft tall end post was decided upon to mount the camera on top. It will need to be supported as well, so it cannot easily fall over.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.25]{"p1".png}}
+	\caption{  Plywood that will be the backing to the prototype of Smart Eraser
+		\cite{hd2}}
+	\label{fig:p1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.25]{"p2".png}}
+	\caption{  The 2x4 that will be used on either side of the prototype
+		\cite{hd3}}
+	\label{fig:p2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.15]{"p3".png}}
+	\caption{  The wheel that will be mounted to the bottom of the 2x4 boards in order to make the prototype mobile
+		\cite{hd4}}
+	\label{fig:p3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.35]{"p4".png}}
+	\caption{ The end post that the camera will be mounted on
+		\cite{hd5}}
+	\label{fig:p4}
+\end{figure}
+
+\subsection{Software Flowcharts}
+
+The following images are estimated flowcharts of how the code that they represent will be written.
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=1]{"sf1".png}}
+	\caption{ Flowchart of how the push buttons will function on the DE1\_SoC
+		\cite{smdataR}}
+	\label{fig:sf1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}, scale=0.65]{"sf2".png}}
+	\caption{ Flowchart of how the image processing program is estimated to work
+		\cite{smdataR}}
+	\label{fig:sf2}
+\end{figure}
+
+\subsection{Boundaries}
+
+
+\setlength{\parindent}{2.5ex} There are a few different major difficult areas that will take up a majority of the development phase of the project. The first difficulty to overcome is establishing a working wireless connection between the camera and the DE1\_SoC board. This needs to be done through the 802.15.3e-2017 Close Proximity Point-to-Point Communications Standard published by IEEE. Wireless connections and how data are transferred with them were taught in the Computer Networking course at Fresno State, but the actual implementation and code of the program was not. Therefore, this will need to be worked on and researched more in order to successfully establish a working connection.\par
+\setlength{\parindent}{2.5ex}
+Once the wireless connection is established, the next major difficulty will be to perform image processing on the images being sent from the camera. This processing will be accomplished by using the ARM IHI 0042F Procedure Call Standard for the ARM architecture in the Altera Monitor program using the C language. The program needs to analyze the data in order to detect markings within the image and store the pixel locations of these markings in an array to be processed by Dijkstra's Algorithm to generate a shortest path between all markings that were detected. This path will be the path that the eraser will take when erasing all the markings.\par
+\setlength{\parindent}{2.5ex}
+The last major obstacle will be to translate the derived shortest path from Dijkstra's Algorithm to stepper motor rotations. Along with this, the degree of rotation of the stepper motor will need to be developed so that it is equivalent to the length of one pixel on the image grid. \\
+
+\subsection{Technical Advisor Background} \par	
+\setlength{\parindent}{2.5ex} The technical advisor for this project is Dr. Hovannes Kulhandjian, who specializes in wireless communications and networking as well as digital signal processing. He will contribute advice and information pertaining to the wireless connectivity of the camera to the image processing microcontroller. Dr. Kulhandjian was the original mind behind the idea of this project as well. Because of this, he will also be contributing more specifications and features to implement in the project as its completion progresses. \\ \par
+
+\section{High-Level Risks}
+The following list details the high-level risks of this project, and what will be done as a precaution against these risks in order to keep the development of the Smart Eraser safe.
+\begin{itemize}
+	\item Power systems malfunctioning
+	\begin{itemize}
+	\item Ensure a secure connection of the power system to the wall outlet and the board and components themselves
+	\end{itemize}
+	\item Moving parts attached to the tracks on the whiteboard
+	\begin{itemize}
+	\item Always standing away from the board to ensure no parts will injure the members of the team
+	\item Introducing the failsafe program that will stop the movement of the components at the push of a button, in case there is a malfunction in the stepper motor movement code
+	\end{itemize}
+	\item Shorts between components causing burnout of parts
+	\begin{itemize}
+	\item Testing will be done with lower voltages than what the final product will have to ensure that the components do not burn out
+\end{itemize}
+\end{itemize}
+
+\section{Milestone Schedule}
+The following tables show the milestone schedule for the Smart Eraser project over the next two semesters.
+\setlength{\parindent}{5ex}
+\begin{table} [H]	
+	\normalsize
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Member Assign.}} & \multicolumn{1}{|c|}{\textbf{Start-End Date}} & \multicolumn{1}{|c|}{\textbf{Description}} \\
+		\hline
+		All & 10/12-10/19/18 & Complete Smart Eraser Project Proposal to be\\
+		& & submitted to DPS Telecom for review. \\
+		\hline
+		All & 10/12-10/19/18 & Finalize the specifics of the budget. \\
+		\hline
+		All & 10/15-10/19/18 & 
+		Create the Project Charter rough draft to be turned in.\\
+		\hline
+		All & 10/16-10/26/18 & Draft a more detailed blueprint of the physical Smart Eraser \\
+		& & deliverable. \\
+		\hline
+		All & 10/16-10/26/18 & 
+		Revise the Project Description; complete for future reference.\\
+		\hline
+		All & 10/16-10/26/18 & 
+		Draft the flowchart to show the logical relationships between all \\
+		& & connected devices within the project.\\
+		\hline
+		All & 10/18-10/19/18 & 
+		Complete bi-monthly update presentation for Senior Design class.\\
+		\hline
+		Juan C. & 10/26-11/10/18 & 
+		Complete a block diagram detailing the specific \\
+		& & connections between the devices within the project.\\
+		\hline
+		Heather L. & 10/26-11/15/18 & 
+		Research wireless communication and protocols to be used.\\
+		\hline
+		Heather L. & 10/26-11/15/18 & 
+		Research the camera and how it will send data over WiFi \\
+		& & connection.\\
+		\hline
+		All & 11/1-11/2/18 & 
+		Complete bi-monthly update presentation for Senior Design class.\\
+		\hline
+		Heather L. \& Chris Q. & 11/1-11/21/18 & 
+		Research the microcontroller to be used  (DE1\_SoC).\\
+		\hline
+		
+\end{tabular} 
+\caption{Senior Design Semester 1 - Research Phase - Part 1}
+\label{table:3}
+\end{table}		
+
+\begin{table} [H]	
+\normalsize
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Member Assign.}} & \multicolumn{1}{|c|}{\textbf{Start-End Date}} & \multicolumn{1}{|c|}{\textbf{Description}} \\
+\hline
+		Chris Q. & 11/1-11/21/18 & 
+		Research the image processing program and what programming \\
+		& & language to use.\\
+		\hline
+		Juan C. & 11/1-12/1/18 &
+		Research the mechanical system and the power connection it requires. \\
+		\hline
+		
+		All & 11/15-11/16/18 & Complete bi-monthly update presentation for Senior Design class.\\
+		\hline
+		Chris Q. & 11/15-11/25/18 & Test initial information found on image processing program.\\
+		\hline
+		Heather L. & 11/15-11/25/18 & Test the microcontroller after researching the ports needed for the \\
+		& & project.\\
+		\hline
+		Heather L. & 11/20-12/1/18 & Research the coordinate system; converts pixels to stepper motor \\
+		& & rotations in the mechanical system.\\
+		\hline
+		All & 11/29-11/30/18 & 
+		Complete bi-monthly update presentation for Senior Design class.\\
+		\hline
+		All & 12/1-12/17/18 & 
+		Complete the final draft of the Project Charter.\\
+		\hline
+		All & 12/13-12/14/18 & 
+		Present Project Charter to Senior Design class, professor, and \\
+		& & academic advisor.\\
+		\hline
+\end{tabular} 
+\caption{Senior Design Semester 1 - Research Phase - Part 2}
+\label{table:3}
+\end{table}
+
+\begin{table} [H]	
+	\normalsize
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Member Assign.}} & \multicolumn{1}{|c|}{\textbf{Start-End Date}} & \multicolumn{1}{|c|}{\textbf{Description}} \\
+		\hline
+		Chris Q. & 1/1-1/20/19 & Develop the code for the image processing program. \\
+		\hline
+		Juan C. & 1/1-1/15/19 & Configure the power system for the mechanical parts of the Smart \\
+		& & Eraser. \\
+		\hline
+		Juan C. & 1/1-1/15/19 & Build the mechanical system the eraser will be attached to.\\
+		\hline
+		Heather L. & 1/15-2/15/19 & Develop the coordinate system. \\
+		\hline
+		Chris Q. & 1/15-1/30/19 & Develop the algorithm to determine the quickest path to erase markings \\
+		& & on the board.\\
+		\hline
+		All & 1/15-1/30/19 & Integrate the microcontroller with the mechanical system.\\
+		\hline
+		All & 1/20-1/30/19 & Test the newly formed microcontroller-mechanical system.\\
+		\hline
+		Heather L. & 2/1-2/10/19 &
+		Set up the wireless communication between camera and DE1\_SoC.\\
+		\hline
+		Chris Q. & 2/1-2/25/19 & Test the image processing program with the camera.\\
+		\hline
+		Chris Q. & 2/25-3/25/19 & Create the motion-detecting program.\\
+		\hline
+		All & 3/26-4/15/19 & Integrate the motion-detecting program with the camera and \\
+		& & microcontroller-mechanical system.\\
+		\hline
+		All & 4/1/-4/20/19 & Test the motion-detecting program.\\
+		\hline
+		All & 4/20-5/13/19 & 
+		Add potential additional features to be decided upon at a later time (if \\
+		& & ahead of schedule).\\
+		\hline
+		All & 4/20-5/13/19 & 
+		Final Project Presentation.\\
+		\hline
+	\end{tabular} 
+	\caption{Senior Design Semester 2 - Implementation Phase.}
+	\label{table:4}
+\end{table}
+
+\section{Test Plan}
+
+The following Test Plan was made to test the features of the Smart Eraser as they are completed. The test plan includes what feature is being tested, who is in charge of creating that feature, and who is in charge of testing that feature. It then lists the success criteria, which is what determines if the test was a success, and the stopping criteria, which is what determines if a test needs to be stopped.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[max size={\textwidth}{\textheight}]{"test".png}
+	\caption{Test Plan for the Smart Eraser - Part 1}
+	\label{fig:test}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[max size={\textwidth}{\textheight}]{"test2".png}
+	\caption{Test Plan for the Smart Eraser - Part 2}
+	\label{fig:test2}
+\end{figure}
+
+\section{Gantt Charts}
+
+The following figures show the GANTT chart schedules over the next two semesters. These list the tasks to be completed, who is in charge of what task, and the time duration the task is expected to take.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[max size={\textwidth}{\textheight}]{"GANTT chart 186A 1".png}
+	\caption{GANTT chart for Senior Design Semester 1 - Research Phase}
+	\label{fig:GANTT186A}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	{\includegraphics[max size={\textwidth}{\textheight}]{"GANTT chart 186B".png}}
+	\caption{GANTT chart for Senior Design Semester 2 - Implementation Phase}
+	\label{fig:GANTT186B}
+\end{figure}
+
+\section{Equipment and Budget}
+The following table lists the components that are expected for the completion of this project, as well as the production company responsible for the creation of the product listed, and the prices of each component before tax and shipping costs. The ``estimated'' listed prices will be known with more design implementation of the project. The total budget price at the bottom of the table includes shipping and tax costs.
+\setlength{\parindent}{5ex}
+\begin{table} [H]
+	\normalsize
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{Component}}  & 
+		\multicolumn{1}{|c|}{\textbf{Production Company}}  & 
+		\multicolumn{1}{|c|}{\textbf{Est. Price}} \\
+		\hline
+		DE1\_Soc FPGA Development Board 	& Terasic 		& \$175 \\
+		\hline
+		115RC Cassette with Stainless Steel	& Accuride 		& \$135 (\$45.00 x3) \\
+		Bearings - model SS0115-CASSRC		&				&	\\
+		\hline
+		115RC 47in Medium-Duty Aluminum		& Accuride 		& \$108.66 (\$36.22 x3) \\ 
+		Linear Track System					&				&	\\
+		\hline 		
+		CNC Stepper Motor Driver - 		    & STEPPERONLINE & \$67.90 (\$33.95 x2) \\
+		model DM542T						&				&	\\
+		\hline
+		WiFi 1080P HD Camera with IR LED 	& sv3c	 		& \$59.99 \\
+		Motion Detection and 128GB			&				&	\\
+		SD Card Support						&				&	\\
+		\hline
+		Magnetic Whiteboard/Dry Erase Board	& VIZ-PRO 		& \$55.89 \\
+		48in x 36in, Silver Aluminum Frame	&				&	\\
+		\hline
+		Nema 23 CNC 2.8A Stepper Motor 		& STEPPERONLINE	& \$52.00 (\$26.00 x2) \\
+		1.26Nm Holding Torque - model		&				&	\\
+		23HS22-2804S						&				&	\\
+		\hline
+		Raspberry Pi 3 Model B Motherboard 	& Raspberry Pi	& \$36.70 \\
+		\hline
+	    6.35mm GT2 40 Teeth Bore Timing Belt& Uxcell 		& \$28.76 (\$7.19 x4) \\
+		\hline
+		9 Volt 600mAh Li-ion Rechargeable   & EBL 			& \$25.99 \\
+		Batteries Lithium-ion, 6 Pack -		&				&	\\
+		model 6F22							&				&	\\
+		\hline
+		10 meter long, 6mm Timing Belt White& Hilitand		& \$16.79 \\
+		GT2 Open Synchronous Belt with Steel&				&	\\
+		Core								&				&	\\
+		\hline
+		3 pcs Antenna Wireless Transceiver 	& Kuman 		& \$13.99 \\
+		RF Transceiver Module - model 		&				&	\\
+		nRF24L01+PA+LNA						&				&	\\
+		\hline
+		9 Volt Li-ion Battery Charger 5 Bay-& EBL			& \$12.99 \\
+		use with model 6F22 Lithium-ion		&				&	\\
+		Rechargeable Batteries				&				&	\\
+		\hline
+		PCBs for stepper motor connections  & Varies		& \$10-\$20 (estimated)\\
+		\hline 
+		4pcs Nema 23 Stepper Motor Steel	& HobbyUnlimited& \$10.99 \\
+		Mounting Bracket with Screws		& 				&	\\
+		\hline
+		USB Wifi Dongle Xiaomi Mi Portable  & Terasic		& \&8.00 \\
+		WiFi								&				&	\\
+		\hline
+		Dry Erase Board Eraser - model 81505& Expo			& \$3.58 \\
+		\hline
+		Plywood and 4x4 post /wheels for	& Home Depot	& \$76.93 (estimated) \\
+		mobility of product					&				&	\\
+		\hline
+											\textbf{Total Budget with Shipping and Taxes} & & \ \textbf{\$928.49} \\
+		\hline 
+	\end{tabular} 
+	\caption{Estimated costs of components for project}
+	\label{table:1}
+\end{table}	
+
+Along with the components listed in the budget, the following resources will also be needed to ensure the completion of this project.
+
+\begin{itemize}
+	\item A DC power source to provide the appropriate voltage to the stepper motors
+	\item A power outlet for the DE1\_SoC board
+	\item Various connections and jumper cables between the power system and the Smart Eraser
+	\item A place to store the components we will be using when they are not being utilized, to ensure their safety and reliability
+	\item Testing items:
+	\begin{itemize}
+		\item DC power source
+		\item Digital multimeter
+		\item Solderless breadboard
+		\item A monitor to display the camera feed
+		\item A computer with the Altera Monitor Program installed in order to write, run, and debug the ARM assembly language on the DE1\_SoC and the C language
+	\end{itemize}
+\end{itemize}
+
+\section{Roles of Team Members}
+\subsection{Heather Libecki}
+She will take on the responsibility of being the project manager for the Smart Eraser. She has experience with programming the DE1\_SoC that will be used in this project, as well as connecting the physical devices to it and controlling them via the GPIO ports, which will come in handy when connecting the Raspberry Pi to the board and controlling the data transfer between the devices. This project will be dependent on translating data from the camera into information that the microcontroller will be able to process, and her previous experience with the board plus her ability to learn and adapt quickly will help in that implementation. She is adept at solving problems, debugging and error detection, and technical writing, which will be an integral part in the completion of this project. A solid understanding of the microcontroller\rq s full capabilities will need to be further ascertained, as well as how the coordinate system will work in conjunction with the stepper motors, which will be connected to the DE1\_SoC via a wireless connection.
+\begin{itemize}
+	\item Strengths: programming (assembly, some verilog), DE1\_SoC programming, mathematics, debugging, circuit implementation, problem solving, technical writing, public speaking
+	\item Weaknesses: circuitry design, coding algorithms, power systems, PCB design 
+\end{itemize} 
+ \subsection{Chris Quesada}
+Has experience in working with embedded systems and developing code for different applications. This project will be heavy on the software side, using the C programming language to take in data, analyze it, and then send an output. So, someone versed in both programming and interfacing with microcontrollers will be needed. A solid understanding  of arrays, pointers, and how information is stored in memory will be needed in order to implement image processing to find pixels that represent markings in the digital image. His work in ECE 70, as well as concepts and experience gained in CSCI 41, will allow for implementation of this image processing. Working with the shortest path algorithm in the 118 lab (Microcontrollers) will allow him to implement the concepts of Dijkstra's algorithm in order to determine the shortest path between all ``TRUE'' values (nodes) in a 2D array (graph).
+\begin{itemize}
+	\item Strengths: programming (assembly, verilog),  programming concepts (arrays, pointers, structures), embedded systems, developing algorithms
+	
+	\item Weaknesses:  circuitry design, mathematics, public speaking 
+\end{itemize} \par
+ \subsection{Juan Colin}
+  Has experience in working with electrical systems and physical circuit design. He is proficient in the use of problem solving techniques to create a functioning system with given design specifications. His part of the project will be dependent on learning the physical mechanical aspects of the design, and how the connected parts will be powered. Therefore, he will need to further his understanding of how the parts should be connected in order to ensure the most spatial efficiency, as well as the connection of the power system that will allow all parts of the system to work properly and move the way they need to.
+  
+	\begin{itemize}
+	\item Strengths: electrical systems, circuitry design, problem solving, power systems, public speaking/relations
+	\item Weaknesses: programming (assembly, verilog), technical writing and spelling \\
+\end{itemize}
+ 
+ \section{Stakeholder List}
+ \begin{enumerate}
+ 	\item	Aaron Stillmaker, Ph.D.: He is the professor of the Senior Design course, therefore wants to guide the students working on the Smart Eraser toward success through the completion of this project. He is also the manager of the project deliverable deadlines.\\ 
+ 	\item   Hovannes Kulhandjian, Ph.D.: He is the technical advisor of this project, and he held the original concept of this project. Therefore he wants to help give technical advice to the students working on the Smart Eraser, as well as see the final product of their efforts.\\
+ 	\item	Heather Libecki: Project Manager, Team Member\\
+ 	\item	Chris Quesada: Team Member\\
+	\item 	Juan Colin: Team Member\\
+ 	 	
+ \end{enumerate}
+ 
+ \section{Project Approval Requirements}
+ The following list details the requirements that must be met in order for the Smart Eraser to be approved by the various stakeholders in the project.
+ \begin{itemize}
+ 	\item All requirements listed in the High-level requirements section of this project charter, which state that the project must:
+	\begin{itemize}
+		\item Be completed within the outlined budget.
+		\item Be implementable within 2 semesters.
+		\item Be complex enough to warrant the title ``senior design project''.
+		\item Produce a complete Project Charter outlining the various project information, figures, and tables of the Smart Eraser.
+		\item Have significant, roughly equal portions of the project be completed by each team member.
+		\item Utilize material learned in core and technical elective classes throughout college careers.
+		\item Produce a deliverable that can be presented in the Senior Project Presentation Day event held in the Satellite Student Union building.
+	\end{itemize}
+ 	\item Additional requirements requested due to the acceptance of the sponsership from DPS Telecom:
+ 		\begin{itemize}
+ 			\item Deliver a project report.
+ 			\item Create and manage a project archival on GitHub (or similar).
+ 			\item Implement a working prototype.
+ 			\item Create a 3-4 minute video, including a business plan with some marketing information.
+ 		\end{itemize}
+ \end{itemize}
+
+\newpage
+
+\section{Approvals}
+\setlength{\parindent}{15ex}
+\vspace{0.5in}
+	\begin{flushleft}
+	Signature: \hrulefill
+	
+	\hspace*{0mm}\phantom{Approved: }Heather Libecki - Project Manager\\
+	\vspace{12pt}
+	Signature: \hrulefill
+	
+	\hspace*{0mm}\phantom{Approved: }Chris Quesada - Team Member\\
+	\vspace{12pt}
+	Signature: \hrulefill
+	
+	\hspace*{0mm}\phantom{Approved: }Juan Colin - Team Member\\
+	\vspace{12pt}
+	Signature: \hrulefill
+	
+	\hspace*{0mm}\phantom{Approved: }Hovannes Kulhandjian, Ph.D. -
+	 Technical Advisor\\
+	 \vspace{12pt}
+	 
+	 Signature: \hrulefill
+	 
+	 \hspace*{0mm}\phantom{Approved: }Aaron Stillmaker, Ph.D. -
+	 Course Instructor\\
+	 \vspace{12pt}
+
+
+\end{flushleft}\par
+\newpage
+
+
+	\bibliographystyle{IEEEtran}
+	\bibliography{reference}	
+ 
+\end{document}
