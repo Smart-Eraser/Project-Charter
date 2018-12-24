@@ -1,0 +1,47 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Project Objectives and Success Criteria}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Simple success criteria}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Ambitious success criteria}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{High-Level Requirements}{}% 5
+\BOOKMARK [1][-]{section.4}{Assumptions, Constraints, and Standards}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Data Storage}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Translate Detected Markings into Coordinate System \(Stepper Motor Rotations\)}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.3}{Stepper Motor System Design}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.4}{Microcontroller Involvement}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.5}{Shortest Path Algorithm}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.6}{Image Processing}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.7}{Wireless Connectivity}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.8}{PCB}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.9}{Motion Detection}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.10}{Standards}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Project Description and Boundaries}{}% 17
+\BOOKMARK [1][-]{section.6}{Physical Technological Components}{}% 18
+\BOOKMARK [2][-]{subsection.6.1}{Fully Connected System}{section.6}% 19
+\BOOKMARK [2][-]{subsection.6.2}{Camera}{section.6}% 20
+\BOOKMARK [2][-]{subsection.6.3}{DE1\137SoC Development Board}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.4}{Raspberry Pi 3 Model B}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.5}{Stepper Motors}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.6}{Stepper Motor Drivers}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.7}{Wireless Connections}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.8}{PCB}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.9}{Additional Power Source}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.10}{Physical Mechanical Components}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.11}{Stepper Motor Mounts}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.12}{Pulley System}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.13}{Prototype Mounting Components}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.14}{Software Flowcharts}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.15}{Boundaries}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.16}{Technical Advisor Background}{section.6}% 34
+\BOOKMARK [1][-]{section.7}{High-Level Risks}{}% 35
+\BOOKMARK [1][-]{section.8}{Milestone Schedule}{}% 36
+\BOOKMARK [1][-]{section.9}{Test Plan}{}% 37
+\BOOKMARK [1][-]{section.10}{Gantt Charts}{}% 38
+\BOOKMARK [1][-]{section.11}{Equipment and Budget}{}% 39
+\BOOKMARK [1][-]{section.12}{Roles of Team Members}{}% 40
+\BOOKMARK [2][-]{subsection.12.1}{Heather Libecki}{section.12}% 41
+\BOOKMARK [2][-]{subsection.12.2}{Chris Quesada}{section.12}% 42
+\BOOKMARK [2][-]{subsection.12.3}{Juan Colin}{section.12}% 43
+\BOOKMARK [1][-]{section.13}{Stakeholder List}{}% 44
+\BOOKMARK [1][-]{section.14}{Project Approval Requirements}{}% 45
+\BOOKMARK [1][-]{section.15}{Approvals}{}% 46
+\BOOKMARK [1][-]{section*.40}{References}{}% 47

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  23 DEC 2018 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  24 DEC 2018 00:08
 entering extended mode
 **./Project_Charter_Final_Draft.tex
 (Project_Charter_Final_Draft.tex
@@ -313,6 +313,105 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen147
 \@vwid@roff=\dimen148
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen149
+\Hy@linkcounter=\count99
+\Hy@pagecounter=\count100
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count101
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count102
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen150
+\Fld@menulength=\count103
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count104
+\c@Item=\count105
+\c@Hfootnote=\count106
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count107
+\c@bookmark@seq@number=\count108
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip44
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 209.
+
 (Project_Charter_Final_Draft.aux
 
 LaTeX Warning: Label `table:3' multiply defined.
@@ -320,68 +419,70 @@ LaTeX Warning: Label `table:3' multiply defined.
 )
 \openout1 = `Project_Charter_Final_Draft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 230.
-LaTeX Font Info:    ... okay on input line 230.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 230.
-LaTeX Font Info:    ... okay on input line 230.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 230.
-LaTeX Font Info:    ... okay on input line 230.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 230.
-LaTeX Font Info:    ... okay on input line 230.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 230.
-LaTeX Font Info:    ... okay on input line 230.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 230.
-LaTeX Font Info:    ... okay on input line 230.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 238.
+LaTeX Font Info:    ... okay on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <6> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <22> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <22> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 238.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 238.
 
 -- Lines per column: 50 (exact).
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen149
+\scratchcounter=\count109
+\scratchdimen=\dimen153
 \scratchbox=\box32
-\nofMPsegments=\count100
-\nofMParguments=\count101
+\nofMPsegments=\count110
+\nofMParguments=\count111
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen150
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen154
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
 \everyMPtoPDFconversion=\toks21
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -397,411 +498,439 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box33
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 238.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count115
+)
+LaTeX Info: Redefining \ref on input line 238.
+LaTeX Info: Redefining \pageref on input line 238.
+LaTeX Info: Redefining \nameref on input line 238.
+
+(Project_Charter_Final_Draft.out) (Project_Charter_Final_Draft.out)
+\@outlinefile=\write3
+\openout3 = `Project_Charter_Final_Draft.out'.
+
  [1{C:/Users/pumpe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 242.
+(Font)              <12> on input line 250.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 242.
+(Font)              <8> on input line 250.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 242.
+(Font)              <6> on input line 250.
 
-Overfull \hbox (30.46408pt too wide) in paragraph at lines 242--285
+Overfull \hbox (30.46408pt too wide) in paragraph at lines 250--293
  [][] 
  []
 
 [2] [3] (Project_Charter_Final_Draft.toc [4])
-\tf@toc=\write3
-\openout3 = `Project_Charter_Final_Draft.toc'.
+\tf@toc=\write4
+\openout4 = `Project_Charter_Final_Draft.toc'.
 
  (Project_Charter_Final_Draft.lof)
-\tf@lof=\write4
-\openout4 = `Project_Charter_Final_Draft.lof'.
+\tf@lof=\write5
+\openout5 = `Project_Charter_Final_Draft.lof'.
 
 (Project_Charter_Final_Draft.lot [5])
-\tf@lot=\write5
-\openout5 = `Project_Charter_Final_Draft.lot'.
+\tf@lot=\write6
+\openout6 = `Project_Charter_Final_Draft.lot'.
 
  [6]
-<Images/designOverview.png, id=22, 752.0898pt x 580.8099pt>
+<Images/designOverview.png, id=387, 752.0898pt x 580.8099pt>
 File: Images/designOverview.png Graphic file (type png)
 <use Images/designOverview.png>
-Package pdftex.def Info: Images/designOverview.png  used on input line 309.
+Package pdftex.def Info: Images/designOverview.png  used on input line 317.
 (pdftex.def)             Requested size: 752.08795pt x 580.80849pt.
- [1 <./Images/designOverview.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.323 
+       [1 <./Images/designOverview.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
-
- []
-
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 435--436
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.347  \setlength{\parindent}{2.5ex}  M
+                                       ain Objectives [2]
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
 
-Overfull \hbox (9.11447pt too wide) in paragraph at lines 474--476
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.386 \end{itemize}
+                    [3]pdfTeX warning (ext4): destination with the same identif
+ier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.443 		\item D
+               eveloping flow charts and block diagrams of the overall syste...
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.460 ... path between all marks in the array.\par
+                                                   [5]
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+
+ []
+
+
+Overfull \hbox (9.11447pt too wide) in paragraph at lines 482--484
 []\T1/ptm/m/n/12 IEEE 802.15.3e-2017 - IEEE Stan-dard for High Data Rate Wire-l
 ess Multi-Media Networks--Amendment
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 499--500
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.490 	\end{itemize}
+                     [6]
+Underfull \hbox (badness 10000) in paragraph at lines 507--508
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 516--517
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
 
  []
 
-<Images/systemDiagram.png, id=45, 590.4459pt x 383.9946pt>
+<Images/systemDiagram.png, id=440, 590.4459pt x 383.9946pt>
 File: Images/systemDiagram.png Graphic file (type png)
 <use Images/systemDiagram.png>
-Package pdftex.def Info: Images/systemDiagram.png  used on input line 537.
+Package pdftex.def Info: Images/systemDiagram.png  used on input line 545.
 (pdftex.def)             Requested size: 590.44446pt x 383.99365pt.
 [7]
-<Images/camera.png, id=50, 1003.75pt x 1003.75pt>
+<Images/camera.png, id=449, 1003.75pt x 1003.75pt>
 File: Images/camera.png Graphic file (type png)
 <use Images/camera.png>
-Package pdftex.def Info: Images/camera.png  used on input line 549.
+Package pdftex.def Info: Images/camera.png  used on input line 557.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  [8 <./Images/systemDiagram.png> <./Images/camera.png>]
-<Images/de1.png, id=57, 1003.75pt x 856.19875pt>
+<Images/de1.png, id=459, 1003.75pt x 856.19875pt>
 File: Images/de1.png Graphic file (type png)
 <use Images/de1.png>
-Package pdftex.def Info: Images/de1.png  used on input line 559.
+Package pdftex.def Info: Images/de1.png  used on input line 567.
 (pdftex.def)             Requested size: 1003.74756pt x 856.19666pt.
  [9 <./Images/de1.png>]
-<Images/rasp.png, id=61, 1576.89125pt x 1084.05pt>
+<Images/rasp.png, id=466, 1576.89125pt x 1084.05pt>
 File: Images/rasp.png Graphic file (type png)
 <use Images/rasp.png>
-Package pdftex.def Info: Images/rasp.png  used on input line 571.
+Package pdftex.def Info: Images/rasp.png  used on input line 579.
 (pdftex.def)             Requested size: 1576.88742pt x 1084.04736pt.
-<Images/sm.png, id=62, 1003.75pt x 1003.75pt>
+<Images/sm.png, id=469, 1003.75pt x 1003.75pt>
 File: Images/sm.png Graphic file (type png)
 <use Images/sm.png>
-Package pdftex.def Info: Images/sm.png  used on input line 581.
+Package pdftex.def Info: Images/sm.png  used on input line 589.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<Images/smdata.png, id=63, 913.91437pt x 344.03531pt>
+<Images/smdata.png, id=472, 913.91437pt x 344.03531pt>
 File: Images/smdata.png Graphic file (type png)
 <use Images/smdata.png>
-Package pdftex.def Info: Images/smdata.png  used on input line 588.
+Package pdftex.def Info: Images/smdata.png  used on input line 596.
 (pdftex.def)             Requested size: 913.91212pt x 344.03447pt.
  [10 <./Images/rasp.png> <./Images/sm.png>]
-<Images/smD.png, id=70, 1003.75pt x 1003.75pt>
+<Images/smD.png, id=482, 1003.75pt x 1003.75pt>
 File: Images/smD.png Graphic file (type png)
 <use Images/smD.png>
-Package pdftex.def Info: Images/smD.png  used on input line 599.
+Package pdftex.def Info: Images/smD.png  used on input line 607.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<Images/smDD.png, id=71, 738.76pt x 190.7125pt>
+<Images/smDD.png, id=485, 738.76pt x 190.7125pt>
 File: Images/smDD.png Graphic file (type png)
 <use Images/smDD.png>
-Package pdftex.def Info: Images/smDD.png  used on input line 606.
+Package pdftex.def Info: Images/smDD.png  used on input line 614.
 (pdftex.def)             Requested size: 738.75818pt x 190.71202pt.
  [11 <./Images/smdata.png> <./Images/smD.png>]
-<Images/smDD2.png, id=76, 737.75626pt x 420.57124pt>
+<Images/smDD2.png, id=493, 737.75626pt x 420.57124pt>
 File: Images/smDD2.png Graphic file (type png)
 <use Images/smDD2.png>
-Package pdftex.def Info: Images/smDD2.png  used on input line 614.
+Package pdftex.def Info: Images/smDD2.png  used on input line 622.
 (pdftex.def)             Requested size: 737.75446pt x 420.57022pt.
-<Images/Wcon.png, id=77, 620.3175pt x 239.39438pt>
+<Images/Wcon.png, id=496, 620.3175pt x 239.39438pt>
 File: Images/Wcon.png Graphic file (type png)
 <use Images/Wcon.png>
-Package pdftex.def Info: Images/Wcon.png  used on input line 627.
+Package pdftex.def Info: Images/Wcon.png  used on input line 635.
 (pdftex.def)             Requested size: 620.316pt x 239.39378pt.
  [12 <./Images/smDD.png> <./Images/smDD2.png>]
-<Images/usb.png, id=83, 64.74188pt x 90.3375pt>
+<Images/usb.png, id=505, 64.74188pt x 90.3375pt>
 File: Images/usb.png Graphic file (type png)
 <use Images/usb.png>
-Package pdftex.def Info: Images/usb.png  used on input line 635.
+Package pdftex.def Info: Images/usb.png  used on input line 643.
 (pdftex.def)             Requested size: 64.74171pt x 90.33727pt.
-<Images/PCB.png, id=84, 518.1759pt x 305.7021pt>
+<Images/PCB.png, id=508, 518.1759pt x 305.7021pt>
 File: Images/PCB.png Graphic file (type png)
 <use Images/PCB.png>
-Package pdftex.def Info: Images/PCB.png  used on input line 647.
+Package pdftex.def Info: Images/PCB.png  used on input line 655.
 (pdftex.def)             Requested size: 518.17462pt x 305.70134pt.
  [13 <./Images/Wcon.png> <./Images/usb.png> <./Images/PCB.png>]
-<Images/charger.png, id=92, 1204.5pt x 1204.5pt>
+<Images/charger.png, id=519, 1204.5pt x 1204.5pt>
 File: Images/charger.png Graphic file (type png)
 <use Images/charger.png>
-Package pdftex.def Info: Images/charger.png  used on input line 659.
+Package pdftex.def Info: Images/charger.png  used on input line 667.
 (pdftex.def)             Requested size: 1204.49707pt x 1204.49707pt.
-<Images/LM.png, id=93, 1156.32pt x 520.94624pt>
+<Images/LM.png, id=522, 1156.32pt x 520.94624pt>
 File: Images/LM.png Graphic file (type png)
 <use Images/LM.png>
-Package pdftex.def Info: Images/LM.png  used on input line 671.
+Package pdftex.def Info: Images/LM.png  used on input line 679.
 (pdftex.def)             Requested size: 1156.31718pt x 520.94498pt.
-<Images/smM.png, id=94, 303.38344pt x 179.92218pt>
+<Images/smM.png, id=525, 303.38344pt x 179.92218pt>
 File: Images/smM.png Graphic file (type png)
 <use Images/smM.png>
-Package pdftex.def Info: Images/smM.png  used on input line 682.
+Package pdftex.def Info: Images/smM.png  used on input line 690.
 (pdftex.def)             Requested size: 303.38269pt x 179.92174pt.
  [14 <./Images/charger.png> <./Images/LM.png>]
-<Images/teeth.jpg, id=100, 352.31625pt x 298.86656pt>
+<Images/teeth.jpg, id=534, 352.31625pt x 298.86656pt>
 File: Images/teeth.jpg Graphic file (type jpg)
 <use Images/teeth.jpg>
-Package pdftex.def Info: Images/teeth.jpg  used on input line 693.
+Package pdftex.def Info: Images/teeth.jpg  used on input line 701.
 (pdftex.def)             Requested size: 352.31538pt x 298.86581pt.
-<Images/pulley.jpg, id=101, 223.58531pt x 120.45pt>
+<Images/pulley.jpg, id=537, 223.58531pt x 120.45pt>
 File: Images/pulley.jpg Graphic file (type jpg)
 <use Images/pulley.jpg>
-Package pdftex.def Info: Images/pulley.jpg  used on input line 701.
+Package pdftex.def Info: Images/pulley.jpg  used on input line 709.
 (pdftex.def)             Requested size: 223.58475pt x 120.44969pt.
  [15 <./Images/smM.png> <./Images/teeth.jpg> <./Images/pulley.jpg>]
-<Images/prot.png, id=106, 862.1811pt x 684.8787pt>
+<Images/prot.png, id=545, 862.1811pt x 684.8787pt>
 File: Images/prot.png Graphic file (type png)
 <use Images/prot.png>
-Package pdftex.def Info: Images/prot.png  used on input line 713.
+Package pdftex.def Info: Images/prot.png  used on input line 721.
 (pdftex.def)             Requested size: 862.179pt x 684.87701pt.
-<Images/p1.png, id=107, 1003.75pt x 1003.75pt>
+<Images/p1.png, id=548, 1003.75pt x 1003.75pt>
 File: Images/p1.png Graphic file (type png)
 <use Images/p1.png>
-Package pdftex.def Info: Images/p1.png  used on input line 725.
+Package pdftex.def Info: Images/p1.png  used on input line 733.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
 
 [16 <./Images/prot.png>]
-<Images/p2.png, id=112, 1003.75pt x 1003.75pt>
+<Images/p2.png, id=556, 1003.75pt x 1003.75pt>
 File: Images/p2.png Graphic file (type png)
 <use Images/p2.png>
-Package pdftex.def Info: Images/p2.png  used on input line 733.
+Package pdftex.def Info: Images/p2.png  used on input line 741.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<Images/p3.png, id=113, 1003.75pt x 1003.75pt>
+<Images/p3.png, id=559, 1003.75pt x 1003.75pt>
 File: Images/p3.png Graphic file (type png)
 <use Images/p3.png>
-Package pdftex.def Info: Images/p3.png  used on input line 741.
+Package pdftex.def Info: Images/p3.png  used on input line 749.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<Images/p4.png, id=114, 1003.75pt x 1003.75pt>
+<Images/p4.png, id=562, 1003.75pt x 1003.75pt>
 File: Images/p4.png Graphic file (type png)
 <use Images/p4.png>
-Package pdftex.def Info: Images/p4.png  used on input line 749.
+Package pdftex.def Info: Images/p4.png  used on input line 757.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<Images/sf1.png, id=115, 558.4062pt x 488.3043pt>
+<Images/sf1.png, id=565, 558.4062pt x 488.3043pt>
 File: Images/sf1.png Graphic file (type png)
 <use Images/sf1.png>
-Package pdftex.def Info: Images/sf1.png  used on input line 761.
+Package pdftex.def Info: Images/sf1.png  used on input line 769.
 (pdftex.def)             Requested size: 558.40483pt x 488.30312pt.
  [17 <./Images/p1.png> <./Images/p2.png> <./Images/p3.png> <./Images/p4.png>]
-<Images/sf2.png, id=123, 763.85374pt x 772.8875pt>
+<Images/sf2.png, id=576, 763.85374pt x 772.8875pt>
 File: Images/sf2.png Graphic file (type png)
 <use Images/sf2.png>
-Package pdftex.def Info: Images/sf2.png  used on input line 769.
+Package pdftex.def Info: Images/sf2.png  used on input line 777.
 (pdftex.def)             Requested size: 763.85187pt x 772.8856pt.
  [18 <./Images/sf1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 782--783
+Underfull \hbox (badness 10000) in paragraph at lines 790--791
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 785--785
+Underfull \hbox (badness 10000) in paragraph at lines 793--793
 
  []
 
 [19 <./Images/sf2.png (PNG copy)>]
-Overfull \hbox (37.63968pt too wide) in paragraph at lines 811--855
+Overfull \hbox (37.63968pt too wide) in paragraph at lines 819--863
  [][] 
  []
 
 
-Overfull \hbox (32.39539pt too wide) in paragraph at lines 862--895
+Overfull \hbox (32.39539pt too wide) in paragraph at lines 870--903
  [][] 
  []
 
 [20]
-Overfull \hbox (39.99149pt too wide) in paragraph at lines 902--942
+Overfull \hbox (39.99149pt too wide) in paragraph at lines 910--950
  [][] 
  []
 
-<Images/test.png, id=135, 550.30594pt x 662.475pt>
+<Images/test.png, id=593, 550.30594pt x 662.475pt>
 File: Images/test.png Graphic file (type png)
 <use Images/test.png>
-Package pdftex.def Info: Images/test.png  used on input line 952.
+Package pdftex.def Info: Images/test.png  used on input line 960.
 (pdftex.def)             Requested size: 550.3046pt x 662.47339pt.
 [21]
-<Images/test2.png, id=139, 550.30594pt x 625.58719pt>
+<Images/test2.png, id=598, 550.30594pt x 625.58719pt>
 File: Images/test2.png Graphic file (type png)
 <use Images/test2.png>
-Package pdftex.def Info: Images/test2.png  used on input line 959.
+Package pdftex.def Info: Images/test2.png  used on input line 967.
 (pdftex.def)             Requested size: 550.3046pt x 625.58566pt.
  [22 <./Images/test.png>]
 
-LaTeX Warning: File `Images/GANTT chart 186A 1.png' not found on input line 970
+LaTeX Warning: File `Images/GANTT chart 186A 1.png' not found on input line 978
 .
 
-<Images/GANTT chart 186A 1.png, id=144, 1003.49907pt x 578.91281pt>
+<Images/GANTT chart 186A 1.png, id=604, 1003.49907pt x 578.91281pt>
 File: Images/GANTT chart 186A 1.png Graphic file (type png)
 <use Images/GANTT chart 186A 1.png>
-Package pdftex.def Info: Images/GANTT chart 186A 1.png  used on input line 970.
+Package pdftex.def Info: Images/GANTT chart 186A 1.png  used on input line 978.
 
 (pdftex.def)             Requested size: 1003.49661pt x 578.91139pt.
 [23 <./Images/test2.png>]
 
-LaTeX Warning: File `Images/GANTT chart 186B.png' not found on input line 977.
+LaTeX Warning: File `Images/GANTT chart 186B.png' not found on input line 985.
 
-<Images/GANTT chart 186B.png, id=149, 1291.07344pt x 542.025pt>
+<Images/GANTT chart 186B.png, id=610, 1291.07344pt x 542.025pt>
 File: Images/GANTT chart 186B.png Graphic file (type png)
 <use Images/GANTT chart 186B.png>
-Package pdftex.def Info: Images/GANTT chart 186B.png  used on input line 977.
+Package pdftex.def Info: Images/GANTT chart 186B.png  used on input line 985.
 (pdftex.def)             Requested size: 1291.07031pt x 542.02367pt.
 [24 <./Images/GANTT chart 186A 1.png> <./Images/GANTT chart 186B.png>] [25]
-Overfull \hbox (10.0393pt too wide) in paragraph at lines 1091--1092
+Overfull \hbox (10.0393pt too wide) in paragraph at lines 1103--1104
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1092--1093
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1097--1098
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+Underfull \hbox (badness 10000) in paragraph at lines 1109--1110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1100--1101
+Underfull \hbox (badness 10000) in paragraph at lines 1111--1112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
 
  []
 
 [27] [28] (Project_Charter_Final_Draft.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 25--29
-[]\T1/ptm/m/n/9 sv3c, ``WiFi Cam-era Out-door, SV3C Surveil-lance CCTV, 1080P H
-D Night Vi-sion Bul-let Cam-eras, Wa-ter-proof
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 28.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+[]\T1/ptm/m/n/9 ------, ``4 in. x 4 in. x 6 ft. Pressure-Treated Cedar-Tone Mou
+lded Fence Post,'' [][]$https : / / www . homedepot . com / p /
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 25--29
-\T1/ptm/m/n/9 Se-cu-rity Cam-era, IR LED Mo-tion De-tec-tion IP Cam-eras for In
--door Out-door, Sup-port Max 128GB SD Card ,''
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+[]\T1/ptm/m/n/9 ------, ``5 in. Swivel with Brake Non-Marking Rub-ber Caster,''
+ [][]$https : / / www . homedepot . com / p /
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 39--42
-[]\T1/ptm/m/n/9 STEPPERONLINE, ``Nema 23 CNC Step-per Mo-tor 2.8A 178.5oz.in/1.
-26Nm CNC Step-ping Mo-tor DIY CNC Mill,''
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+[]\T1/ptm/m/n/9 ------, `` Lin-den 5 in. x 5 in. x 9 ft. White Vinyl Routed Fen
+ce End Post,'' [][]$https : / / www . homedepot . com / p /
  []
 
 
-Overfull \hbox (16.36932pt too wide) in paragraph at lines 48--51
-\T1/ptm/m/n/9 Mo-tor ,'' https://www.amazon.com/dp/B06Y5VPSFN/?coliid=I1R941FDJ
-72L0R&colid=22YAOKWOJAKA9&psc=0&ref_=lv_ov_lig_dp_it. 
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+[]\T1/ptm/m/n/9 N. E. M. As-so-ci-a-tion, ``Oc-cu-pancy Mo-tion Sen-sors Stan-d
+ard,'' [][]$https : / / www . nema . org / Standards / Pages /
  []
 
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1177.
+ [29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1177.
+ (Project_Charter_Final_Draft.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1177.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1177.
 
-Underfull \hbox (badness 1527) in paragraph at lines 57--60
-[]\T1/ptm/m/n/9 Kuman, ``ku-man 3 pcs nRF24L01+PA+LNA An-tenna Wire-less Transc
-eiver RF Transceiver Mod-ule for Ar-duino KY67 ,''
- []
+Package rerunfilecheck Info: File `Project_Charter_Final_Draft.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: A822B565E6786CBFCE63D4233FB7C48E;3153.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
-[]\T1/ptm/m/n/9 EBL, ``EBL Li-ion 9V Bat-tery Charger 5 Bay 9V 6F22 Lithium-ion
- Recharge-able Bat-ter-ies,''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--78
-[]\T1/ptm/m/n/9 HobbyUnlimited, ``4pcs Nema 23 Step-per Mo-tor Steel Mount-ing 
-Bracket with Mount-ing Screws ,''
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 85--88
-[]\T1/ptm/m/n/9 Mercury, ``Mer-curry 5 Me-ters GT2 tim-ing belt width 6mm Fit f
-or RepRap Mendel Ro-s-tock Prusa GT2-6mm Belt ,''
- []
-
-
-Underfull \hbox (badness 5681) in paragraph at lines 90--93
-[]\T1/ptm/m/n/9 H. De-pot, ``Sheath-ing Ply-wood (Com-mon: 15/32 in. x 4 ft. x 
-8 ft.; Ac-tual: 0.438 in. x 48 in. x 96 in.),''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--111
-[]\T1/ptm/m/n/9 ------, ``Sheath-ing Ply-wood (Com-mon: 15/32 in. x 4 ft. x 8 f
-t.; Ac-tual: 0.438 in. x 48 in. x 96 in.),''
- []
-
-
-Overfull \hbox (34.41194pt too wide) in paragraph at lines 135--137
-[]\T1/ptm/m/n/9 A. Lim-ited, ``Pro-ce-dure Call Stan-dard for the ARM Ar-chi-te
-c-ture,'' http://infocenter.arm.com/help/topic/com.arm.doc.ihi0042f/IHI0042F_aa
-pcs.pdf. 
- []
-
-
-Overfull \hbox (2.09296pt too wide) in paragraph at lines 139--141
-[]\T1/ptm/m/n/9 IEEE, ``IEEE Ed-i-to-rial Style Man-ual ,'' https://www.ieee.or
-g/content/dam/ieee-org/ieee/web/org/conferences/style_references_manual.pdf. 
- []
-
-) [29] (Project_Charter_Final_Draft.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1177.
  ) 
 Here is how much of TeX's memory you used:
- 5338 strings out of 493312
- 87297 string characters out of 3138899
- 159546 words of memory out of 3000000
- 8761 multiletter control sequences out of 15000+200000
- 98704 words of font info for 104 fonts, out of 3000000 for 9000
+ 9087 strings out of 493312
+ 144537 string characters out of 3138899
+ 247432 words of memory out of 3000000
+ 12305 multiletter control sequences out of 15000+200000
+ 99616 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,9n,77p,1516b,336s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,10n,77p,1516b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Project_Charter_Final_Draft.pdf (35 pages, 9509396 bytes).
+Output written on Project_Charter_Final_Draft.pdf (35 pages, 9593534 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 781 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
 

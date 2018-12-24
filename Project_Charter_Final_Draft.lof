@@ -1,29 +1,29 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Design overview of the final product\relax }}{1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Block diagram of main system components\relax }}{8}
-\contentsline {figure}{\numberline {3}{\ignorespaces WiFi sv3c camera that will be used for capturing the image to be processed \cite {cam} \relax }}{8}
-\contentsline {figure}{\numberline {4}{\ignorespaces A detailed block diagram of the components contained on the DE1\_SoC \cite {de1} \relax }}{9}
-\contentsline {figure}{\numberline {5}{\ignorespaces The Raspberry Pi 3 Model B with wireless and LAN connection capabilities \cite {raspB} \relax }}{10}
-\contentsline {figure}{\numberline {6}{\ignorespaces Image showing the Nema 23 stepper motor \cite {smR} \relax }}{10}
-\contentsline {figure}{\numberline {7}{\ignorespaces Table showing relevant information on the NEMA 23 stepper motor \cite {smdataR}\relax }}{11}
-\contentsline {figure}{\numberline {8}{\ignorespaces Image of the stepper motor driver and its connectors for the motor \cite {smdataR}\relax }}{11}
-\contentsline {figure}{\numberline {9}{\ignorespaces Table of electrical specifications for the stepper motor drivers, including driving voltages and output currents \cite {smdataD}\relax }}{12}
-\contentsline {figure}{\numberline {10}{\ignorespaces Microstep resolution settings for the stepper motor driver with specified on and off ports to rotate the motors \cite {smdataDD}\relax }}{12}
-\contentsline {figure}{\numberline {11}{\ignorespaces The Kuman Antenna wireless transceiver to be connected to the stepper motor's PCB \cite {kuman}\relax }}{13}
-\contentsline {figure}{\numberline {12}{\ignorespaces The WiFi dongle to be attached to the DE1\_SoC, which will communicate with the wireless camera \cite {wifi}\relax }}{13}
-\contentsline {figure}{\numberline {13}{\ignorespaces A rough model of what the PCB will look like, which will be created for both stepper motor systems \cite {smdataR}\relax }}{13}
-\contentsline {figure}{\numberline {14}{\ignorespaces The batteries in their recharging station that will be used to power the stepper motors and their drivers \cite {ebl}\relax }}{14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Specific dimensions and placement of holes in the Model 115RC Linear Motion Track System, as well as the Cassette carriage that will be used for mounting \cite {accuride}\relax }}{14}
-\contentsline {figure}{\numberline {16}{\ignorespaces Mounts that will be used to place the stepper motors on the system \cite {hobby}\relax }}{15}
-\contentsline {figure}{\numberline {17}{\ignorespaces The GT2 40-teeth 6.35 mm bore timing belt pulley flange synchronous wheel \cite {uxcell}\relax }}{15}
-\contentsline {figure}{\numberline {18}{\ignorespaces A close up view of the 5 meter long, 6mm wide GT2 timing belt. This belt is black to show detail, but the belt that will actually be used in the project will be white \cite {merc}\relax }}{15}
-\contentsline {figure}{\numberline {19}{\ignorespaces The mobile prototype that the Smart Eraser will be mounted to \cite {hd1}\relax }}{16}
-\contentsline {figure}{\numberline {20}{\ignorespaces Plywood that will be the backing to the prototype of Smart Eraser \cite {hd2}\relax }}{17}
-\contentsline {figure}{\numberline {21}{\ignorespaces The 2x4 that will be used on either side of the prototype \cite {hd3}\relax }}{17}
-\contentsline {figure}{\numberline {22}{\ignorespaces The wheel that will be mounted to the bottom of the 2x4 boards in order to make the prototype mobile \cite {hd4}\relax }}{17}
-\contentsline {figure}{\numberline {23}{\ignorespaces The end post that the camera will be mounted on \cite {hd5}\relax }}{17}
-\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart of how the push buttons will function on the DE1\_SoC \cite {smdataR}\relax }}{18}
-\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart of how the image processing program is estimated to work \cite {smdataR}\relax }}{19}
-\contentsline {figure}{\numberline {26}{\ignorespaces Test Plan for the Smart Eraser - Part 1\relax }}{22}
-\contentsline {figure}{\numberline {27}{\ignorespaces Test Plan for the Smart Eraser - Part 2\relax }}{23}
-\contentsline {figure}{\numberline {28}{\ignorespaces GANTT chart for Senior Design Semester 1 - Research Phase\relax }}{24}
-\contentsline {figure}{\numberline {29}{\ignorespaces GANTT chart for Senior Design Semester 2 - Implementation Phase\relax }}{24}
+\contentsline {figure}{\numberline {1}{\ignorespaces Design overview of the final product\relax }}{1}{figure.caption.7}
+\contentsline {figure}{\numberline {2}{\ignorespaces Block diagram of main system components\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {3}{\ignorespaces WiFi sv3c camera that will be used for capturing the image to be processed \cite {cam} \relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {4}{\ignorespaces A detailed block diagram of the components contained on the DE1\_SoC \cite {de1} \relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {5}{\ignorespaces The Raspberry Pi 3 Model B with wireless and LAN connection capabilities \cite {raspB} \relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {6}{\ignorespaces Image showing the Nema 23 stepper motor \cite {smR} \relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {7}{\ignorespaces Table showing relevant information on the NEMA 23 stepper motor \cite {smdataR}\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {8}{\ignorespaces Image of the stepper motor driver and its connectors for the motor \cite {smdataR}\relax }}{11}{figure.caption.14}
+\contentsline {figure}{\numberline {9}{\ignorespaces Table of electrical specifications for the stepper motor drivers, including driving voltages and output currents \cite {smdataD}\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {10}{\ignorespaces Microstep resolution settings for the stepper motor driver with specified on and off ports to rotate the motors \cite {smdataDD}\relax }}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {11}{\ignorespaces The Kuman Antenna wireless transceiver to be connected to the stepper motor's PCB \cite {kuman}\relax }}{13}{figure.caption.17}
+\contentsline {figure}{\numberline {12}{\ignorespaces The WiFi dongle to be attached to the DE1\_SoC, which will communicate with the wireless camera \cite {wifi}\relax }}{13}{figure.caption.18}
+\contentsline {figure}{\numberline {13}{\ignorespaces A rough model of what the PCB will look like, which will be created for both stepper motor systems \cite {smdataR}\relax }}{13}{figure.caption.19}
+\contentsline {figure}{\numberline {14}{\ignorespaces The batteries in their recharging station that will be used to power the stepper motors and their drivers \cite {ebl}\relax }}{14}{figure.caption.20}
+\contentsline {figure}{\numberline {15}{\ignorespaces Specific dimensions and placement of holes in the Model 115RC Linear Motion Track System, as well as the Cassette carriage that will be used for mounting \cite {accuride}\relax }}{14}{figure.caption.21}
+\contentsline {figure}{\numberline {16}{\ignorespaces Mounts that will be used to place the stepper motors on the system \cite {hobby}\relax }}{15}{figure.caption.22}
+\contentsline {figure}{\numberline {17}{\ignorespaces The GT2 40-teeth 6.35 mm bore timing belt pulley flange synchronous wheel \cite {uxcell}\relax }}{15}{figure.caption.23}
+\contentsline {figure}{\numberline {18}{\ignorespaces A close up view of the 5 meter long, 6mm wide GT2 timing belt. This belt is black to show detail, but the belt that will actually be used in the project will be white \cite {merc}\relax }}{15}{figure.caption.24}
+\contentsline {figure}{\numberline {19}{\ignorespaces The mobile prototype that the Smart Eraser will be mounted to \cite {hd1}\relax }}{16}{figure.caption.25}
+\contentsline {figure}{\numberline {20}{\ignorespaces Plywood that will be the backing to the prototype of Smart Eraser \cite {hd2}\relax }}{17}{figure.caption.26}
+\contentsline {figure}{\numberline {21}{\ignorespaces The 2x4 that will be used on either side of the prototype \cite {hd3}\relax }}{17}{figure.caption.27}
+\contentsline {figure}{\numberline {22}{\ignorespaces The wheel that will be mounted to the bottom of the 2x4 boards in order to make the prototype mobile \cite {hd4}\relax }}{17}{figure.caption.28}
+\contentsline {figure}{\numberline {23}{\ignorespaces The end post that the camera will be mounted on \cite {hd5}\relax }}{17}{figure.caption.29}
+\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart of how the push buttons will function on the DE1\_SoC \cite {smdataR}\relax }}{18}{figure.caption.30}
+\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart of how the image processing program is estimated to work \cite {smdataR}\relax }}{19}{figure.caption.31}
+\contentsline {figure}{\numberline {26}{\ignorespaces Test Plan for the Smart Eraser - Part 1\relax }}{22}{figure.caption.35}
+\contentsline {figure}{\numberline {27}{\ignorespaces Test Plan for the Smart Eraser - Part 2\relax }}{23}{figure.caption.36}
+\contentsline {figure}{\numberline {28}{\ignorespaces GANTT chart for Senior Design Semester 1 - Research Phase\relax }}{24}{figure.caption.37}
+\contentsline {figure}{\numberline {29}{\ignorespaces GANTT chart for Senior Design Semester 2 - Implementation Phase\relax }}{24}{figure.caption.38}
