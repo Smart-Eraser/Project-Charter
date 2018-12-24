@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  23 DEC 2018 20:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.26)  23 DEC 2018 22:13
 entering extended mode
 **./Project_Charter_Final_Draft.tex
 (Project_Charter_Final_Draft.tex
@@ -423,12 +423,12 @@ Overfull \hbox (30.46408pt too wide) in paragraph at lines 242--285
 \openout5 = `Project_Charter_Final_Draft.lot'.
 
  [6]
-<"designOverview".png, id=22, 752.0898pt x 580.8099pt>
-File: "designOverview".png Graphic file (type png)
-<use "designOverview".png>
-Package pdftex.def Info: "designOverview".png  used on input line 309.
+<Images/designOverview.png, id=22, 752.0898pt x 580.8099pt>
+File: Images/designOverview.png Graphic file (type png)
+<use Images/designOverview.png>
+Package pdftex.def Info: Images/designOverview.png  used on input line 309.
 (pdftex.def)             Requested size: 752.08795pt x 580.80849pt.
- [1 <./designOverview.png>]
+ [1 <./Images/designOverview.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
@@ -484,140 +484,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 526--527
 
  []
 
-<"systemDiagram".png, id=45, 590.4459pt x 383.9946pt>
-File: "systemDiagram".png Graphic file (type png)
-<use "systemDiagram".png>
-Package pdftex.def Info: "systemDiagram".png  used on input line 537.
+<Images/systemDiagram.png, id=45, 590.4459pt x 383.9946pt>
+File: Images/systemDiagram.png Graphic file (type png)
+<use Images/systemDiagram.png>
+Package pdftex.def Info: Images/systemDiagram.png  used on input line 537.
 (pdftex.def)             Requested size: 590.44446pt x 383.99365pt.
 [7]
-<"camera".png, id=50, 1003.75pt x 1003.75pt>
-File: "camera".png Graphic file (type png)
-<use "camera".png>
-Package pdftex.def Info: "camera".png  used on input line 549.
+<Images/camera.png, id=50, 1003.75pt x 1003.75pt>
+File: Images/camera.png Graphic file (type png)
+<use Images/camera.png>
+Package pdftex.def Info: Images/camera.png  used on input line 549.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- [8 <./systemDiagram.png> <./camera.png>]
-<"de1".png, id=57, 1003.75pt x 856.19875pt>
-File: "de1".png Graphic file (type png)
-<use "de1".png>
-Package pdftex.def Info: "de1".png  used on input line 559.
+ [8 <./Images/systemDiagram.png> <./Images/camera.png>]
+<Images/de1.png, id=57, 1003.75pt x 856.19875pt>
+File: Images/de1.png Graphic file (type png)
+<use Images/de1.png>
+Package pdftex.def Info: Images/de1.png  used on input line 559.
 (pdftex.def)             Requested size: 1003.74756pt x 856.19666pt.
- [9 <./de1.png>]
-<"rasp".png, id=61, 1576.89125pt x 1084.05pt>
-File: "rasp".png Graphic file (type png)
-<use "rasp".png>
-Package pdftex.def Info: "rasp".png  used on input line 571.
+ [9 <./Images/de1.png>]
+<Images/rasp.png, id=61, 1576.89125pt x 1084.05pt>
+File: Images/rasp.png Graphic file (type png)
+<use Images/rasp.png>
+Package pdftex.def Info: Images/rasp.png  used on input line 571.
 (pdftex.def)             Requested size: 1576.88742pt x 1084.04736pt.
-<"sm".png, id=62, 1003.75pt x 1003.75pt>
-File: "sm".png Graphic file (type png)
-<use "sm".png>
-Package pdftex.def Info: "sm".png  used on input line 581.
+<Images/sm.png, id=62, 1003.75pt x 1003.75pt>
+File: Images/sm.png Graphic file (type png)
+<use Images/sm.png>
+Package pdftex.def Info: Images/sm.png  used on input line 581.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"smdata".png, id=63, 913.91437pt x 344.03531pt>
-File: "smdata".png Graphic file (type png)
-<use "smdata".png>
-Package pdftex.def Info: "smdata".png  used on input line 588.
+<Images/smdata.png, id=63, 913.91437pt x 344.03531pt>
+File: Images/smdata.png Graphic file (type png)
+<use Images/smdata.png>
+Package pdftex.def Info: Images/smdata.png  used on input line 588.
 (pdftex.def)             Requested size: 913.91212pt x 344.03447pt.
- [10 <./rasp.png> <./sm.png>]
-<"smD".png, id=70, 1003.75pt x 1003.75pt>
-File: "smD".png Graphic file (type png)
-<use "smD".png>
-Package pdftex.def Info: "smD".png  used on input line 599.
+ [10 <./Images/rasp.png> <./Images/sm.png>]
+<Images/smD.png, id=70, 1003.75pt x 1003.75pt>
+File: Images/smD.png Graphic file (type png)
+<use Images/smD.png>
+Package pdftex.def Info: Images/smD.png  used on input line 599.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"smDD".png, id=71, 738.76pt x 190.7125pt>
-File: "smDD".png Graphic file (type png)
-<use "smDD".png>
-Package pdftex.def Info: "smDD".png  used on input line 606.
+<Images/smDD.png, id=71, 738.76pt x 190.7125pt>
+File: Images/smDD.png Graphic file (type png)
+<use Images/smDD.png>
+Package pdftex.def Info: Images/smDD.png  used on input line 606.
 (pdftex.def)             Requested size: 738.75818pt x 190.71202pt.
- [11 <./smdata.png> <./smD.png>]
-<"smDD2".png, id=76, 737.75626pt x 420.57124pt>
-File: "smDD2".png Graphic file (type png)
-<use "smDD2".png>
-Package pdftex.def Info: "smDD2".png  used on input line 614.
+ [11 <./Images/smdata.png> <./Images/smD.png>]
+<Images/smDD2.png, id=76, 737.75626pt x 420.57124pt>
+File: Images/smDD2.png Graphic file (type png)
+<use Images/smDD2.png>
+Package pdftex.def Info: Images/smDD2.png  used on input line 614.
 (pdftex.def)             Requested size: 737.75446pt x 420.57022pt.
-<"Wcon".png, id=77, 620.3175pt x 239.39438pt>
-File: "Wcon".png Graphic file (type png)
-<use "Wcon".png>
-Package pdftex.def Info: "Wcon".png  used on input line 627.
+<Images/Wcon.png, id=77, 620.3175pt x 239.39438pt>
+File: Images/Wcon.png Graphic file (type png)
+<use Images/Wcon.png>
+Package pdftex.def Info: Images/Wcon.png  used on input line 627.
 (pdftex.def)             Requested size: 620.316pt x 239.39378pt.
- [12 <./smDD.png> <./smDD2.png>]
-<"usb".png, id=83, 64.74188pt x 90.3375pt>
-File: "usb".png Graphic file (type png)
-<use "usb".png>
-Package pdftex.def Info: "usb".png  used on input line 635.
+ [12 <./Images/smDD.png> <./Images/smDD2.png>]
+<Images/usb.png, id=83, 64.74188pt x 90.3375pt>
+File: Images/usb.png Graphic file (type png)
+<use Images/usb.png>
+Package pdftex.def Info: Images/usb.png  used on input line 635.
 (pdftex.def)             Requested size: 64.74171pt x 90.33727pt.
-<"PCB".png, id=84, 518.1759pt x 305.7021pt>
-File: "PCB".png Graphic file (type png)
-<use "PCB".png>
-Package pdftex.def Info: "PCB".png  used on input line 647.
+<Images/PCB.png, id=84, 518.1759pt x 305.7021pt>
+File: Images/PCB.png Graphic file (type png)
+<use Images/PCB.png>
+Package pdftex.def Info: Images/PCB.png  used on input line 647.
 (pdftex.def)             Requested size: 518.17462pt x 305.70134pt.
-
-[13 <./Wcon.png> <./usb.png> <./PCB.png>]
-<"charger".png, id=92, 1204.5pt x 1204.5pt>
-File: "charger".png Graphic file (type png)
-<use "charger".png>
-Package pdftex.def Info: "charger".png  used on input line 659.
+ [13 <./Images/Wcon.png> <./Images/usb.png> <./Images/PCB.png>]
+<Images/charger.png, id=92, 1204.5pt x 1204.5pt>
+File: Images/charger.png Graphic file (type png)
+<use Images/charger.png>
+Package pdftex.def Info: Images/charger.png  used on input line 659.
 (pdftex.def)             Requested size: 1204.49707pt x 1204.49707pt.
-<"LM".png, id=93, 1156.32pt x 520.94624pt>
-File: "LM".png Graphic file (type png)
-<use "LM".png>
-Package pdftex.def Info: "LM".png  used on input line 671.
+<Images/LM.png, id=93, 1156.32pt x 520.94624pt>
+File: Images/LM.png Graphic file (type png)
+<use Images/LM.png>
+Package pdftex.def Info: Images/LM.png  used on input line 671.
 (pdftex.def)             Requested size: 1156.31718pt x 520.94498pt.
-<"smM".png, id=94, 303.38344pt x 179.92218pt>
-File: "smM".png Graphic file (type png)
-<use "smM".png>
-Package pdftex.def Info: "smM".png  used on input line 682.
+<Images/smM.png, id=94, 303.38344pt x 179.92218pt>
+File: Images/smM.png Graphic file (type png)
+<use Images/smM.png>
+Package pdftex.def Info: Images/smM.png  used on input line 682.
 (pdftex.def)             Requested size: 303.38269pt x 179.92174pt.
- [14 <./charger.png> <./LM.png>]
-<"teeth".jpg, id=100, 352.31625pt x 298.86656pt>
-File: "teeth".jpg Graphic file (type jpg)
-<use "teeth".jpg>
-Package pdftex.def Info: "teeth".jpg  used on input line 693.
+ [14 <./Images/charger.png> <./Images/LM.png>]
+<Images/teeth.jpg, id=100, 352.31625pt x 298.86656pt>
+File: Images/teeth.jpg Graphic file (type jpg)
+<use Images/teeth.jpg>
+Package pdftex.def Info: Images/teeth.jpg  used on input line 693.
 (pdftex.def)             Requested size: 352.31538pt x 298.86581pt.
-<"pulley".jpg, id=101, 223.58531pt x 120.45pt>
-File: "pulley".jpg Graphic file (type jpg)
-<use "pulley".jpg>
-Package pdftex.def Info: "pulley".jpg  used on input line 701.
+<Images/pulley.jpg, id=101, 223.58531pt x 120.45pt>
+File: Images/pulley.jpg Graphic file (type jpg)
+<use Images/pulley.jpg>
+Package pdftex.def Info: Images/pulley.jpg  used on input line 701.
 (pdftex.def)             Requested size: 223.58475pt x 120.44969pt.
-
-[15 <./smM.png> <./teeth.jpg> <./pulley.jpg>]
-<"prot".png, id=106, 862.1811pt x 684.8787pt>
-File: "prot".png Graphic file (type png)
-<use "prot".png>
-Package pdftex.def Info: "prot".png  used on input line 713.
+ [15 <./Images/smM.png> <./Images/teeth.jpg> <./Images/pulley.jpg>]
+<Images/prot.png, id=106, 862.1811pt x 684.8787pt>
+File: Images/prot.png Graphic file (type png)
+<use Images/prot.png>
+Package pdftex.def Info: Images/prot.png  used on input line 713.
 (pdftex.def)             Requested size: 862.179pt x 684.87701pt.
-<"p1".png, id=107, 1003.75pt x 1003.75pt>
-File: "p1".png Graphic file (type png)
-<use "p1".png>
-Package pdftex.def Info: "p1".png  used on input line 725.
+<Images/p1.png, id=107, 1003.75pt x 1003.75pt>
+File: Images/p1.png Graphic file (type png)
+<use Images/p1.png>
+Package pdftex.def Info: Images/p1.png  used on input line 725.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- [16 <./prot.png>]
-<"p2".png, id=112, 1003.75pt x 1003.75pt>
-File: "p2".png Graphic file (type png)
-<use "p2".png>
-Package pdftex.def Info: "p2".png  used on input line 733.
+
+[16 <./Images/prot.png>]
+<Images/p2.png, id=112, 1003.75pt x 1003.75pt>
+File: Images/p2.png Graphic file (type png)
+<use Images/p2.png>
+Package pdftex.def Info: Images/p2.png  used on input line 733.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"p3".png, id=113, 1003.75pt x 1003.75pt>
-File: "p3".png Graphic file (type png)
-<use "p3".png>
-Package pdftex.def Info: "p3".png  used on input line 741.
+<Images/p3.png, id=113, 1003.75pt x 1003.75pt>
+File: Images/p3.png Graphic file (type png)
+<use Images/p3.png>
+Package pdftex.def Info: Images/p3.png  used on input line 741.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"p4".png, id=114, 1003.75pt x 1003.75pt>
-File: "p4".png Graphic file (type png)
-<use "p4".png>
-Package pdftex.def Info: "p4".png  used on input line 749.
+<Images/p4.png, id=114, 1003.75pt x 1003.75pt>
+File: Images/p4.png Graphic file (type png)
+<use Images/p4.png>
+Package pdftex.def Info: Images/p4.png  used on input line 749.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
-<"sf1".png, id=115, 558.4062pt x 488.3043pt>
-File: "sf1".png Graphic file (type png)
-<use "sf1".png>
-Package pdftex.def Info: "sf1".png  used on input line 761.
+<Images/sf1.png, id=115, 558.4062pt x 488.3043pt>
+File: Images/sf1.png Graphic file (type png)
+<use Images/sf1.png>
+Package pdftex.def Info: Images/sf1.png  used on input line 761.
 (pdftex.def)             Requested size: 558.40483pt x 488.30312pt.
- [17 <./p1.png> <./p2.png> <./p3.png> <./p4.png>]
-<"sf2".png, id=123, 763.85374pt x 772.8875pt>
-File: "sf2".png Graphic file (type png)
-<use "sf2".png>
-Package pdftex.def Info: "sf2".png  used on input line 769.
+ [17 <./Images/p1.png> <./Images/p2.png> <./Images/p3.png> <./Images/p4.png>]
+<Images/sf2.png, id=123, 763.85374pt x 772.8875pt>
+File: Images/sf2.png Graphic file (type png)
+<use Images/sf2.png>
+Package pdftex.def Info: Images/sf2.png  used on input line 769.
 (pdftex.def)             Requested size: 763.85187pt x 772.8856pt.
- [18 <./sf1.png>]
+ [18 <./Images/sf1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 782--783
 
  []
@@ -627,7 +626,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 785--785
 
  []
 
-[19 <./sf2.png (PNG copy)>]
+[19 <./Images/sf2.png (PNG copy)>]
 Overfull \hbox (37.63968pt too wide) in paragraph at lines 811--855
  [][] 
  []
@@ -642,30 +641,38 @@ Overfull \hbox (39.99149pt too wide) in paragraph at lines 902--942
  [][] 
  []
 
-<"test".png, id=135, 550.30594pt x 662.475pt>
-File: "test".png Graphic file (type png)
-<use "test".png>
-Package pdftex.def Info: "test".png  used on input line 952.
+<Images/test.png, id=135, 550.30594pt x 662.475pt>
+File: Images/test.png Graphic file (type png)
+<use Images/test.png>
+Package pdftex.def Info: Images/test.png  used on input line 952.
 (pdftex.def)             Requested size: 550.3046pt x 662.47339pt.
 [21]
-<"test2".png, id=139, 550.30594pt x 625.58719pt>
-File: "test2".png Graphic file (type png)
-<use "test2".png>
-Package pdftex.def Info: "test2".png  used on input line 959.
+<Images/test2.png, id=139, 550.30594pt x 625.58719pt>
+File: Images/test2.png Graphic file (type png)
+<use Images/test2.png>
+Package pdftex.def Info: Images/test2.png  used on input line 959.
 (pdftex.def)             Requested size: 550.3046pt x 625.58566pt.
- [22 <./test.png>]
-<"GANTT chart 186A 1".png, id=144, 1003.49907pt x 578.91281pt>
-File: "GANTT chart 186A 1".png Graphic file (type png)
-<use "GANTT chart 186A 1".png>
-Package pdftex.def Info: "GANTT chart 186A 1".png  used on input line 970.
+ [22 <./Images/test.png>]
+
+LaTeX Warning: File `Images/GANTT chart 186A 1.png' not found on input line 970
+.
+
+<Images/GANTT chart 186A 1.png, id=144, 1003.49907pt x 578.91281pt>
+File: Images/GANTT chart 186A 1.png Graphic file (type png)
+<use Images/GANTT chart 186A 1.png>
+Package pdftex.def Info: Images/GANTT chart 186A 1.png  used on input line 970.
+
 (pdftex.def)             Requested size: 1003.49661pt x 578.91139pt.
- [23 <./test2.png>]
-<"GANTT chart 186B".png, id=149, 1291.07344pt x 542.025pt>
-File: "GANTT chart 186B".png Graphic file (type png)
-<use "GANTT chart 186B".png>
-Package pdftex.def Info: "GANTT chart 186B".png  used on input line 977.
+[23 <./Images/test2.png>]
+
+LaTeX Warning: File `Images/GANTT chart 186B.png' not found on input line 977.
+
+<Images/GANTT chart 186B.png, id=149, 1291.07344pt x 542.025pt>
+File: Images/GANTT chart 186B.png Graphic file (type png)
+<use Images/GANTT chart 186B.png>
+Package pdftex.def Info: Images/GANTT chart 186B.png  used on input line 977.
 (pdftex.def)             Requested size: 1291.07031pt x 542.02367pt.
- [24 <./GANTT chart 186A 1.png> <./GANTT chart 186B.png>] [25]
+[24 <./Images/GANTT chart 186A 1.png> <./Images/GANTT chart 186B.png>] [25]
 Overfull \hbox (10.0393pt too wide) in paragraph at lines 1091--1092
 []\T1/ptm/m/n/12 Strengths: elec-tri-cal sys-tems, cir-cuitry de-sign, prob-lem
  solv-ing, power sys-tems, pub-lic speak-ing/relations 
@@ -781,7 +788,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  5338 strings out of 493312
- 86743 string characters out of 3138899
+ 87297 string characters out of 3138899
  159546 words of memory out of 3000000
  8761 multiletter control sequences out of 15000+200000
  98704 words of font info for 104 fonts, out of 3000000 for 9000
@@ -792,7 +799,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr
 8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Project_Charter_Final_Draft.pdf (35 pages, 9509339 bytes).
+Output written on Project_Charter_Final_Draft.pdf (35 pages, 9509396 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
